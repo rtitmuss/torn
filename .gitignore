@@ -1,0 +1,10 @@
+# export files for BOM
+*.csv
+*.tsv
+*.xml
+# backup files
+*bak
+# other files
+*/gerber/
+.DS_Store
+

@@ -1,13 +1,13 @@
 (export (version D)
   (design
     (source /Users/richardt/keyboard/torn/pcb_left/torn_left.sch)
-    (date "2020 August 02, Sunday 10:39:27")
+    (date "2020 August 02, Sunday 10:41:44")
     (tool "Eeschema (5.1.6-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Torn Keyboard - Left")
         (company)
-        (rev v1)
+        (rev v1.1)
         (date)
         (source torn_left.sch)
         (comment (number 1) (value ""))

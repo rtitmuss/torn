@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Torn Keyboard - Left"
 Date ""
-Rev "v1"
+Rev "v1.1"
 Comp ""
 Comment1 ""
 Comment2 ""

@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Torn Keyboard - Right"
+Title "Torn Keyboard - Left"
 Date ""
 Rev "v1"
 Comp ""
@@ -1410,7 +1410,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2250 3300 2250
 $Comp
-L torn_right-rescue:USB_C_GCT_USB4085-Type-C-cftkb USB1
+L usb_c_gct_usb4085-type-c:USB_C_GCT_USB4085-Type-C USB1
 U 1 1 5F4F038F
 P 2000 2300
 F 0 "USB1" H 1833 3337 60  0000 C CNN
@@ -1525,17 +1525,8 @@ F 3 "" H 10100 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10000 3800 10100 3800
-Wire Wire Line
-	2100 2950 2100 3050
-Connection ~ 2100 1550
-Connection ~ 2100 1850
-Connection ~ 2100 2750
-Connection ~ 2100 3050
-Wire Wire Line
-	2100 3050 2100 3150
-Connection ~ 2100 3150
 $Comp
-L torn_right-rescue:SJ-43514-SJ-43514 J1
+L SJ-43514:SJ-43514 J1
 U 1 1 5F2502D0
 P 5100 1950
 F 0 "J1" H 5157 2417 50  0000 C CNN
@@ -1567,4 +1558,10 @@ Wire Wire Line
 	5650 1500 5650 1850
 Wire Wire Line
 	5650 2250 5650 2150
+Wire Wire Line
+	2100 2950 2100 3050
+Wire Wire Line
+	2100 3050 2100 3150
+Connection ~ 2100 3050
+Connection ~ 2100 3150
 $EndSCHEMATC

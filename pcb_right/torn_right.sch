@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Torn Keyboard - Left"
+Title "Torn Keyboard - Right"
 Date ""
 Rev "v1.1"
 Comp ""
@@ -1119,7 +1119,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 4400 4350 4150
 $Comp
-L torn_left-rescue:SJ-43514-SJ-43514 J50
+L SJ-43514:SJ-43514 J50
 U 1 1 5F0C0BDE
 P 3650 4500
 F 0 "J50" H 3707 4967 50  0000 C CNN

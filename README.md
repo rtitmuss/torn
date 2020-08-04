@@ -13,7 +13,7 @@ It uses an Atmega328P with VUSB:
 
 The firmware will be compatible with [VIA](https://caniusevia.com/).
 
-***This version of the PCB does not have the correct key spacing - do not use these files to design cases and plates!***
+***The next version of the PCB will not be comptatible, with both mechanical and electrical changes. This version is not supported. It is not recommended to use this version!***
 
 [PCBs](./doc/pcb.md)
 

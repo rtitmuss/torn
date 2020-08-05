@@ -584,8 +584,6 @@ F 3 "" H 2350 3300 50  0001 C CNN
 	1    2350 3300
 	1    0    0    -1  
 $EndComp
-Text Label 3050 3000 0    50   ~ 0
-ROW3
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5C0FAB26
@@ -696,26 +694,22 @@ F 3 "~" H 9550 6200 50  0001 C CNN
 	1    9550 6200
 	1    0    0    -1  
 $EndComp
-Text Label 3050 1900 0    50   ~ 0
+Text Label 3050 2600 0    50   ~ 0
 COL0
-Text Label 3050 1800 0    50   ~ 0
+Text Label 3050 2500 0    50   ~ 0
 COL1
-Text Label 3050 1700 0    50   ~ 0
+Text Label 3050 2400 0    50   ~ 0
 COL2
-Text Label 3050 1600 0    50   ~ 0
+Text Label 3050 2300 0    50   ~ 0
 COL3
 Text Label 7400 1900 2    50   ~ 0
 ROW0
-Text Label 3050 2700 0    50   ~ 0
+Text Label 3050 3000 0    50   ~ 0
 ROW0
-Text Label 3050 2800 0    50   ~ 0
-ROW1
 Text Label 3050 2900 0    50   ~ 0
-ROW2
-Text Label 3050 1500 0    50   ~ 0
+ROW1
+Text Label 3050 2100 0    50   ~ 0
 COL4
-Text Label 3050 1400 0    50   ~ 0
-COL5
 Text Label 4700 4300 0    50   ~ 0
 i2c_SDA
 Text Label 4700 4600 0    50   ~ 0
@@ -851,9 +845,9 @@ Wire Wire Line
 	10050 3850 10350 3850
 Wire Wire Line
 	10050 3650 10350 3650
-Text Label 3050 2400 0    50   ~ 0
+Text Label 3050 1800 0    50   ~ 0
 ENC_A
-Text Label 3050 2300 0    50   ~ 0
+Text Label 3050 1900 0    50   ~ 0
 ENC_B
 Wire Wire Line
 	9100 3650 9450 3650
@@ -1049,11 +1043,11 @@ Text Label 5100 1950 2    50   ~ 0
 LED2
 Text Label 5100 2350 2    50   ~ 0
 LED3
-Text Label 3050 2000 0    50   ~ 0
+Text Label 3050 1600 0    50   ~ 0
 LED1
-Text Label 3050 2100 0    50   ~ 0
+Text Label 3050 1500 0    50   ~ 0
 LED2
-Text Label 3050 2500 0    50   ~ 0
+Text Label 3050 1400 0    50   ~ 0
 LED3
 $Comp
 L Connector_Generic:Conn_01x04 J51
@@ -1098,7 +1092,6 @@ Wire Wire Line
 	5800 4450 5950 4450
 Wire Wire Line
 	5700 2350 5700 2450
-NoConn ~ 3050 2600
 Wire Wire Line
 	4050 4700 4350 4700
 Wire Wire Line
@@ -1135,4 +1128,11 @@ Wire Wire Line
 	4050 4600 4700 4600
 Wire Wire Line
 	4350 4700 4350 4800
+Text Label 3050 2700 0    50   ~ 0
+ROW2
+Text Label 3050 2800 0    50   ~ 0
+ROW3
+Text Label 3050 2000 0    50   ~ 0
+COL5
+NoConn ~ 3050 1700
 $EndSCHEMATC

@@ -608,17 +608,6 @@ $EndComp
 Wire Wire Line
 	3850 6000 3950 6000
 $Comp
-L Switch:SW_Push SW41
-U 1 1 5C466A7F
-P 3650 6700
-F 0 "SW41" H 3650 6985 50  0000 C CNN
-F 1 "BOOT" H 3650 6894 50  0000 C CNN
-F 2 "cftkb:SW_PUSH_6mm" H 3650 6900 50  0001 C CNN
-F 3 "" H 3650 6900 50  0001 C CNN
-	1    3650 6700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR014
 U 1 1 5C466B7B
 P 3950 6800
@@ -698,8 +687,6 @@ Text Label 2750 6500 0    50   ~ 0
 USB_D-
 Text Label 2750 6000 0    50   ~ 0
 RESET
-Text Label 2750 4900 0    50   ~ 0
-ROW3
 $Comp
 L Device:D_Schottky_Small_ALT D41
 U 1 1 5C1ED964
@@ -1105,30 +1092,22 @@ Wire Wire Line
 	2650 6900 2750 6900
 Wire Wire Line
 	2650 6800 2750 6800
-Text Label 2750 4500 0    50   ~ 0
+Text Label 2750 6800 0    50   ~ 0
 COL0
 Text Label 2750 6900 0    50   ~ 0
 COL1
-Text Label 2750 6800 0    50   ~ 0
+Text Label 2750 4500 0    50   ~ 0
 COL2
-Text Label 2750 6700 0    50   ~ 0
-COL3
 Text Label 7350 1950 2    50   ~ 0
 ROW0
-Text Label 2750 6600 0    50   ~ 0
+Text Label 2750 6700 0    50   ~ 0
 ROW0
-Text Label 2750 5000 0    50   ~ 0
-ROW1
-Text Label 2750 4800 0    50   ~ 0
+Text Label 2750 6300 0    50   ~ 0
 ROW2
 Wire Wire Line
 	2650 4600 2750 4600
 Wire Wire Line
 	2650 4700 2750 4700
-Text Label 2750 4700 0    50   ~ 0
-COL4
-Text Label 2750 4600 0    50   ~ 0
-COL5
 Wire Wire Line
 	2750 5400 2650 5400
 Wire Wire Line
@@ -1141,10 +1120,6 @@ Wire Wire Line
 	2650 5800 2750 5800
 Wire Wire Line
 	2650 5900 2750 5900
-Wire Wire Line
-	2750 6200 2650 6200
-Wire Wire Line
-	2650 6300 2750 6300
 $Comp
 L power:+5V #PWR0101
 U 1 1 5C52D444
@@ -1192,8 +1167,6 @@ $EndComp
 Wire Wire Line
 	2650 6600 2750 6600
 Wire Wire Line
-	2650 6700 3450 6700
-Wire Wire Line
 	3350 4500 3650 4500
 Wire Wire Line
 	7350 2650 7950 2650
@@ -1214,7 +1187,7 @@ Connection ~ 3250 6000
 Wire Wire Line
 	2650 6000 3250 6000
 Wire Wire Line
-	3950 6000 3950 6700
+	3950 6000 3950 6200
 Connection ~ 3950 6700
 Wire Wire Line
 	2050 4100 2050 4200
@@ -1389,9 +1362,9 @@ Wire Wire Line
 	10000 3900 10300 3900
 Wire Wire Line
 	10000 3700 10300 3700
-Text Label 2750 6200 0    50   ~ 0
+Text Label 2750 4700 0    50   ~ 0
 ENC_A
-Text Label 2750 6300 0    50   ~ 0
+Text Label 2750 4600 0    50   ~ 0
 ENC_B
 Wire Wire Line
 	9050 3700 9400 3700
@@ -1564,4 +1537,36 @@ Wire Wire Line
 	2100 3050 2100 3150
 Connection ~ 2100 3050
 Connection ~ 2100 3150
+Text Label 2750 5000 0    50   ~ 0
+COL3
+Text Label 2750 4800 0    50   ~ 0
+COL5
+Text Label 2750 4900 0    50   ~ 0
+COL4
+Text Label 2750 6600 0    50   ~ 0
+ROW1
+Text Label 2750 6200 0    50   ~ 0
+ROW3
+$Comp
+L Switch:SW_Push SW41
+U 1 1 5C466A7F
+P 3650 6200
+F 0 "SW41" H 3650 6485 50  0000 C CNN
+F 1 "BOOT" H 3650 6394 50  0000 C CNN
+F 2 "cftkb:SW_PUSH_6mm" H 3650 6400 50  0001 C CNN
+F 3 "" H 3650 6400 50  0001 C CNN
+	1    3650 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 6700 2750 6700
+Wire Wire Line
+	2650 6200 3450 6200
+Wire Wire Line
+	3850 6200 3950 6200
+Connection ~ 3950 6200
+Wire Wire Line
+	3950 6200 3950 6700
+Wire Wire Line
+	2650 6300 2750 6300
 $EndSCHEMATC

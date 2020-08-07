@@ -704,7 +704,7 @@ Text Label 3050 2300 0    50   ~ 0
 COL3
 Text Label 7400 1900 2    50   ~ 0
 ROW0
-Text Label 3050 3000 0    50   ~ 0
+Text Label 3050 2800 0    50   ~ 0
 ROW0
 Text Label 3050 2900 0    50   ~ 0
 ROW1
@@ -1128,9 +1128,9 @@ Wire Wire Line
 	4050 4600 4700 4600
 Wire Wire Line
 	4350 4700 4350 4800
-Text Label 3050 2700 0    50   ~ 0
+Text Label 3050 3000 0    50   ~ 0
 ROW2
-Text Label 3050 2800 0    50   ~ 0
+Text Label 3050 2700 0    50   ~ 0
 ROW3
 Text Label 3050 2000 0    50   ~ 0
 COL5

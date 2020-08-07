@@ -1100,9 +1100,9 @@ Text Label 2750 4500 0    50   ~ 0
 COL2
 Text Label 7350 1950 2    50   ~ 0
 ROW0
-Text Label 2750 6700 0    50   ~ 0
+Text Label 2750 6600 0    50   ~ 0
 ROW0
-Text Label 2750 6300 0    50   ~ 0
+Text Label 2750 6200 0    50   ~ 0
 ROW2
 Wire Wire Line
 	2650 4600 2750 4600
@@ -1543,9 +1543,9 @@ Text Label 2750 4800 0    50   ~ 0
 COL5
 Text Label 2750 4900 0    50   ~ 0
 COL4
-Text Label 2750 6600 0    50   ~ 0
+Text Label 2750 6300 0    50   ~ 0
 ROW1
-Text Label 2750 6200 0    50   ~ 0
+Text Label 2750 6700 0    50   ~ 0
 ROW3
 $Comp
 L Switch:SW_Push SW41

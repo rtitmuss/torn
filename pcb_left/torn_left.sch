@@ -19,7 +19,7 @@ U 1 1 5C075012
 P 7750 1650
 F 0 "SW1" H 7750 1935 50  0000 C CNN
 F 1 "SW_Push" H 7750 1844 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 7750 1850 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 7750 1850 50  0001 C CNN
 F 3 "" H 7750 1850 50  0001 C CNN
 	1    7750 1650
 	-1   0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 5C075018
 P 7950 1850
 F 0 "D1" V 8000 1700 50  0000 L CNN
 F 1 "1N4148" V 7900 1500 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 7950 1850 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 7950 1850 50  0001 C CNN
 F 3 "~" V 7950 1850 50  0001 C CNN
 	1    7950 1850
 	0    1    -1   0   
@@ -38,23 +38,23 @@ $EndComp
 Wire Wire Line
 	7950 1650 7950 1750
 $Comp
-L Switch:SW_Push SW11
+L Switch:SW_Push SW7
 U 1 1 5C09DA38
 P 7750 2350
-F 0 "SW11" H 7750 2635 50  0000 C CNN
+F 0 "SW7" H 7750 2635 50  0000 C CNN
 F 1 "SW_Push" H 7750 2544 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 7750 2550 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 7750 2550 50  0001 C CNN
 F 3 "" H 7750 2550 50  0001 C CNN
 	1    7750 2350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D11
+L Device:D_Small_ALT D7
 U 1 1 5C09DA3E
 P 7950 2550
-F 0 "D11" V 8000 2400 50  0000 L CNN
+F 0 "D7" V 8000 2400 50  0000 L CNN
 F 1 "1N4148" V 7900 2200 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 7950 2550 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 7950 2550 50  0001 C CNN
 F 3 "~" V 7950 2550 50  0001 C CNN
 	1    7950 2550
 	0    1    -1   0   
@@ -62,23 +62,23 @@ $EndComp
 Wire Wire Line
 	7950 2350 7950 2450
 $Comp
-L Switch:SW_Push SW21
+L Switch:SW_Push SW13
 U 1 1 5C0A07D3
 P 7750 3050
-F 0 "SW21" H 7750 3335 50  0000 C CNN
+F 0 "SW13" H 7750 3335 50  0000 C CNN
 F 1 "SW_Push" H 7750 3244 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 7750 3250 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 7750 3250 50  0001 C CNN
 F 3 "" H 7750 3250 50  0001 C CNN
 	1    7750 3050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D21
+L Device:D_Small_ALT D13
 U 1 1 5C0A07D9
 P 7950 3250
-F 0 "D21" V 8000 3100 50  0000 L CNN
+F 0 "D13" V 8000 3100 50  0000 L CNN
 F 1 "1N4148" V 7900 2900 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 7950 3250 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 7950 3250 50  0001 C CNN
 F 3 "~" V 7950 3250 50  0001 C CNN
 	1    7950 3250
 	0    1    -1   0   
@@ -99,7 +99,7 @@ U 1 1 5C149111
 P 8250 1650
 F 0 "SW2" H 8250 1935 50  0000 C CNN
 F 1 "SW_Push" H 8250 1844 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 8250 1850 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 8250 1850 50  0001 C CNN
 F 3 "" H 8250 1850 50  0001 C CNN
 	1    8250 1650
 	-1   0    0    -1  
@@ -110,7 +110,7 @@ U 1 1 5C149117
 P 8450 1850
 F 0 "D2" V 8500 1700 50  0000 L CNN
 F 1 "1N4148" V 8400 1500 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 8450 1850 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 8450 1850 50  0001 C CNN
 F 3 "~" V 8450 1850 50  0001 C CNN
 	1    8450 1850
 	0    1    -1   0   
@@ -118,23 +118,23 @@ $EndComp
 Wire Wire Line
 	8450 1650 8450 1750
 $Comp
-L Switch:SW_Push SW12
+L Switch:SW_Push SW8
 U 1 1 5C14911F
 P 8250 2350
-F 0 "SW12" H 8250 2635 50  0000 C CNN
+F 0 "SW8" H 8250 2635 50  0000 C CNN
 F 1 "SW_Push" H 8250 2544 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 8250 2550 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 8250 2550 50  0001 C CNN
 F 3 "" H 8250 2550 50  0001 C CNN
 	1    8250 2350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D12
+L Device:D_Small_ALT D8
 U 1 1 5C149125
 P 8450 2550
-F 0 "D12" V 8500 2400 50  0000 L CNN
+F 0 "D8" V 8500 2400 50  0000 L CNN
 F 1 "1N4148" V 8400 2200 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 8450 2550 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 8450 2550 50  0001 C CNN
 F 3 "~" V 8450 2550 50  0001 C CNN
 	1    8450 2550
 	0    1    -1   0   
@@ -142,23 +142,23 @@ $EndComp
 Wire Wire Line
 	8450 2350 8450 2450
 $Comp
-L Switch:SW_Push SW22
+L Switch:SW_Push SW14
 U 1 1 5C14912D
 P 8250 3050
-F 0 "SW22" H 8250 3335 50  0000 C CNN
+F 0 "SW14" H 8250 3335 50  0000 C CNN
 F 1 "SW_Push" H 8250 3244 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 8250 3250 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 8250 3250 50  0001 C CNN
 F 3 "" H 8250 3250 50  0001 C CNN
 	1    8250 3050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D22
+L Device:D_Small_ALT D14
 U 1 1 5C149133
 P 8450 3250
-F 0 "D22" V 8500 3100 50  0000 L CNN
+F 0 "D14" V 8500 3100 50  0000 L CNN
 F 1 "1N4148" V 8400 2900 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 8450 3250 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 8450 3250 50  0001 C CNN
 F 3 "~" V 8450 3250 50  0001 C CNN
 	1    8450 3250
 	0    1    -1   0   
@@ -179,7 +179,7 @@ U 1 1 5C14948A
 P 8750 1650
 F 0 "SW3" H 8750 1935 50  0000 C CNN
 F 1 "SW_Push" H 8750 1844 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 8750 1850 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 8750 1850 50  0001 C CNN
 F 3 "" H 8750 1850 50  0001 C CNN
 	1    8750 1650
 	-1   0    0    -1  
@@ -190,7 +190,7 @@ U 1 1 5C149490
 P 8950 1850
 F 0 "D3" V 9000 1700 50  0000 L CNN
 F 1 "1N4148" V 8900 1500 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 8950 1850 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 8950 1850 50  0001 C CNN
 F 3 "~" V 8950 1850 50  0001 C CNN
 	1    8950 1850
 	0    1    -1   0   
@@ -198,23 +198,23 @@ $EndComp
 Wire Wire Line
 	8950 1650 8950 1750
 $Comp
-L Switch:SW_Push SW13
+L Switch:SW_Push SW9
 U 1 1 5C149498
 P 8750 2350
-F 0 "SW13" H 8750 2635 50  0000 C CNN
+F 0 "SW9" H 8750 2635 50  0000 C CNN
 F 1 "SW_Push" H 8750 2544 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 8750 2550 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 8750 2550 50  0001 C CNN
 F 3 "" H 8750 2550 50  0001 C CNN
 	1    8750 2350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D13
+L Device:D_Small_ALT D9
 U 1 1 5C14949E
 P 8950 2550
-F 0 "D13" V 9000 2400 50  0000 L CNN
+F 0 "D9" V 9000 2400 50  0000 L CNN
 F 1 "1N4148" V 8900 2200 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 8950 2550 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 8950 2550 50  0001 C CNN
 F 3 "~" V 8950 2550 50  0001 C CNN
 	1    8950 2550
 	0    1    -1   0   
@@ -222,23 +222,23 @@ $EndComp
 Wire Wire Line
 	8950 2350 8950 2450
 $Comp
-L Switch:SW_Push SW23
+L Switch:SW_Push SW15
 U 1 1 5C1494A6
 P 8750 3050
-F 0 "SW23" H 8750 3335 50  0000 C CNN
+F 0 "SW15" H 8750 3335 50  0000 C CNN
 F 1 "SW_Push" H 8750 3244 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 8750 3250 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 8750 3250 50  0001 C CNN
 F 3 "" H 8750 3250 50  0001 C CNN
 	1    8750 3050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D23
+L Device:D_Small_ALT D15
 U 1 1 5C1494AC
 P 8950 3250
-F 0 "D23" V 9000 3100 50  0000 L CNN
+F 0 "D15" V 9000 3100 50  0000 L CNN
 F 1 "1N4148" V 8900 2900 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 8950 3250 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 8950 3250 50  0001 C CNN
 F 3 "~" V 8950 3250 50  0001 C CNN
 	1    8950 3250
 	0    1    -1   0   
@@ -259,7 +259,7 @@ U 1 1 5C1494C9
 P 9250 1650
 F 0 "SW4" H 9250 1935 50  0000 C CNN
 F 1 "SW_Push" H 9250 1844 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 9250 1850 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 9250 1850 50  0001 C CNN
 F 3 "" H 9250 1850 50  0001 C CNN
 	1    9250 1650
 	-1   0    0    -1  
@@ -270,7 +270,7 @@ U 1 1 5C1494CF
 P 9450 1850
 F 0 "D4" V 9500 1700 50  0000 L CNN
 F 1 "1N4148" V 9400 1500 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 9450 1850 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 9450 1850 50  0001 C CNN
 F 3 "~" V 9450 1850 50  0001 C CNN
 	1    9450 1850
 	0    1    -1   0   
@@ -278,23 +278,23 @@ $EndComp
 Wire Wire Line
 	9450 1650 9450 1750
 $Comp
-L Switch:SW_Push SW14
+L Switch:SW_Push SW10
 U 1 1 5C1494D7
 P 9250 2350
-F 0 "SW14" H 9250 2635 50  0000 C CNN
+F 0 "SW10" H 9250 2635 50  0000 C CNN
 F 1 "SW_Push" H 9250 2544 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 9250 2550 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 9250 2550 50  0001 C CNN
 F 3 "" H 9250 2550 50  0001 C CNN
 	1    9250 2350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D14
+L Device:D_Small_ALT D10
 U 1 1 5C1494DD
 P 9450 2550
-F 0 "D14" V 9500 2400 50  0000 L CNN
+F 0 "D10" V 9500 2400 50  0000 L CNN
 F 1 "1N4148" V 9400 2200 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 9450 2550 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 9450 2550 50  0001 C CNN
 F 3 "~" V 9450 2550 50  0001 C CNN
 	1    9450 2550
 	0    1    -1   0   
@@ -302,23 +302,23 @@ $EndComp
 Wire Wire Line
 	9450 2350 9450 2450
 $Comp
-L Switch:SW_Push SW24
+L Switch:SW_Push SW16
 U 1 1 5C1494E5
 P 9250 3050
-F 0 "SW24" H 9250 3335 50  0000 C CNN
+F 0 "SW16" H 9250 3335 50  0000 C CNN
 F 1 "SW_Push" H 9250 3244 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 9250 3250 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 9250 3250 50  0001 C CNN
 F 3 "" H 9250 3250 50  0001 C CNN
 	1    9250 3050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D24
+L Device:D_Small_ALT D16
 U 1 1 5C1494EB
 P 9450 3250
-F 0 "D24" V 9500 3100 50  0000 L CNN
+F 0 "D16" V 9500 3100 50  0000 L CNN
 F 1 "1N4148" V 9400 2900 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 9450 3250 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 9450 3250 50  0001 C CNN
 F 3 "~" V 9450 3250 50  0001 C CNN
 	1    9450 3250
 	0    1    -1   0   
@@ -326,23 +326,23 @@ $EndComp
 Wire Wire Line
 	9450 3050 9450 3150
 $Comp
-L Switch:SW_Push SW31
+L Switch:SW_Push SW19
 U 1 1 5C1494F3
 P 7750 3750
-F 0 "SW31" H 7750 4035 50  0000 C CNN
+F 0 "SW19" H 7750 4035 50  0000 C CNN
 F 1 "SW_Push" H 7750 3944 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 7750 3950 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 7750 3950 50  0001 C CNN
 F 3 "" H 7750 3950 50  0001 C CNN
 	1    7750 3750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D31
+L Device:D_Small_ALT D19
 U 1 1 5C1494F9
 P 7950 3950
-F 0 "D31" V 8000 3800 50  0000 L CNN
+F 0 "D19" V 8000 3800 50  0000 L CNN
 F 1 "1N4148" V 7900 3600 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 7950 3950 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 7950 3950 50  0001 C CNN
 F 3 "~" V 7950 3950 50  0001 C CNN
 	1    7950 3950
 	0    1    -1   0   
@@ -359,7 +359,7 @@ U 1 1 5C149F54
 P 9750 1650
 F 0 "SW5" H 9750 1935 50  0000 C CNN
 F 1 "SW_Push" H 9750 1844 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 9750 1850 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 9750 1850 50  0001 C CNN
 F 3 "" H 9750 1850 50  0001 C CNN
 	1    9750 1650
 	-1   0    0    -1  
@@ -370,7 +370,7 @@ U 1 1 5C149F5A
 P 9950 1850
 F 0 "D5" V 10000 1700 50  0000 L CNN
 F 1 "1N4148" V 9900 1500 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 9950 1850 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 9950 1850 50  0001 C CNN
 F 3 "~" V 9950 1850 50  0001 C CNN
 	1    9950 1850
 	0    1    -1   0   
@@ -378,23 +378,23 @@ $EndComp
 Wire Wire Line
 	9950 1650 9950 1750
 $Comp
-L Switch:SW_Push SW15
+L Switch:SW_Push SW11
 U 1 1 5C149F62
 P 9750 2350
-F 0 "SW15" H 9750 2635 50  0000 C CNN
+F 0 "SW11" H 9750 2635 50  0000 C CNN
 F 1 "SW_Push" H 9750 2544 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 9750 2550 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 9750 2550 50  0001 C CNN
 F 3 "" H 9750 2550 50  0001 C CNN
 	1    9750 2350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D15
+L Device:D_Small_ALT D11
 U 1 1 5C149F68
 P 9950 2550
-F 0 "D15" V 10000 2400 50  0000 L CNN
+F 0 "D11" V 10000 2400 50  0000 L CNN
 F 1 "1N4148" V 9900 2200 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 9950 2550 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 9950 2550 50  0001 C CNN
 F 3 "~" V 9950 2550 50  0001 C CNN
 	1    9950 2550
 	0    1    -1   0   
@@ -402,23 +402,23 @@ $EndComp
 Wire Wire Line
 	9950 2350 9950 2450
 $Comp
-L Switch:SW_Push SW25
+L Switch:SW_Push SW17
 U 1 1 5C149F70
 P 9750 3050
-F 0 "SW25" H 9750 3335 50  0000 C CNN
+F 0 "SW17" H 9750 3335 50  0000 C CNN
 F 1 "SW_Push" H 9750 3244 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 9750 3250 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 9750 3250 50  0001 C CNN
 F 3 "" H 9750 3250 50  0001 C CNN
 	1    9750 3050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D25
+L Device:D_Small_ALT D17
 U 1 1 5C149F76
 P 9950 3250
-F 0 "D25" V 10000 3100 50  0000 L CNN
+F 0 "D17" V 10000 3100 50  0000 L CNN
 F 1 "1N4148" V 9900 2900 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 9950 3250 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 9950 3250 50  0001 C CNN
 F 3 "~" V 9950 3250 50  0001 C CNN
 	1    9950 3250
 	0    1    -1   0   
@@ -426,23 +426,23 @@ $EndComp
 Wire Wire Line
 	9950 3050 9950 3150
 $Comp
-L Switch:SW_Push SW32
+L Switch:SW_Push SW20
 U 1 1 5C149F7E
 P 8250 3750
-F 0 "SW32" H 8250 4035 50  0000 C CNN
+F 0 "SW20" H 8250 4035 50  0000 C CNN
 F 1 "SW_Push" H 8250 3944 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 8250 3950 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 8250 3950 50  0001 C CNN
 F 3 "" H 8250 3950 50  0001 C CNN
 	1    8250 3750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D32
+L Device:D_Small_ALT D20
 U 1 1 5C149F84
 P 8450 3950
-F 0 "D32" V 8500 3800 50  0000 L CNN
+F 0 "D20" V 8500 3800 50  0000 L CNN
 F 1 "1N4148" V 8400 3600 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 8450 3950 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 8450 3950 50  0001 C CNN
 F 3 "~" V 8450 3950 50  0001 C CNN
 	1    8450 3950
 	0    1    -1   0   
@@ -461,7 +461,7 @@ U 1 1 5C149F93
 P 10250 1650
 F 0 "SW6" H 10250 1935 50  0000 C CNN
 F 1 "SW_Push" H 10250 1844 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 10250 1850 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 10250 1850 50  0001 C CNN
 F 3 "" H 10250 1850 50  0001 C CNN
 	1    10250 1650
 	-1   0    0    -1  
@@ -472,7 +472,7 @@ U 1 1 5C149F99
 P 10450 1850
 F 0 "D6" V 10500 1700 50  0000 L CNN
 F 1 "1N4148" V 10400 1500 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 10450 1850 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 10450 1850 50  0001 C CNN
 F 3 "~" V 10450 1850 50  0001 C CNN
 	1    10450 1850
 	0    1    -1   0   
@@ -480,23 +480,23 @@ $EndComp
 Wire Wire Line
 	10450 1650 10450 1750
 $Comp
-L Switch:SW_Push SW16
+L Switch:SW_Push SW12
 U 1 1 5C149FA1
 P 10250 2350
-F 0 "SW16" H 10250 2635 50  0000 C CNN
+F 0 "SW12" H 10250 2635 50  0000 C CNN
 F 1 "SW_Push" H 10250 2544 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 10250 2550 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 10250 2550 50  0001 C CNN
 F 3 "" H 10250 2550 50  0001 C CNN
 	1    10250 2350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D16
+L Device:D_Small_ALT D12
 U 1 1 5C149FA7
 P 10450 2550
-F 0 "D16" V 10500 2400 50  0000 L CNN
+F 0 "D12" V 10500 2400 50  0000 L CNN
 F 1 "1N4148" V 10400 2200 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 10450 2550 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 10450 2550 50  0001 C CNN
 F 3 "~" V 10450 2550 50  0001 C CNN
 	1    10450 2550
 	0    1    -1   0   
@@ -504,23 +504,23 @@ $EndComp
 Wire Wire Line
 	10450 2350 10450 2450
 $Comp
-L Switch:SW_Push SW26
+L Switch:SW_Push SW18
 U 1 1 5C149FAF
 P 10250 3050
-F 0 "SW26" H 10250 3335 50  0000 C CNN
+F 0 "SW18" H 10250 3335 50  0000 C CNN
 F 1 "SW_Push" H 10250 3244 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 10250 3250 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 10250 3250 50  0001 C CNN
 F 3 "" H 10250 3250 50  0001 C CNN
 	1    10250 3050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D26
+L Device:D_Small_ALT D18
 U 1 1 5C149FB5
 P 10450 3250
-F 0 "D26" V 10500 3100 50  0000 L CNN
+F 0 "D18" V 10500 3100 50  0000 L CNN
 F 1 "1N4148" V 10400 2900 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 10450 3250 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 10450 3250 50  0001 C CNN
 F 3 "~" V 10450 3250 50  0001 C CNN
 	1    10450 3250
 	0    1    -1   0   
@@ -528,12 +528,12 @@ $EndComp
 Wire Wire Line
 	10450 3050 10450 3150
 $Comp
-L Device:D_Small_ALT D33
+L Device:D_Small_ALT D21
 U 1 1 5C149FC3
 P 8950 3950
-F 0 "D33" V 8950 3700 50  0000 L CNN
+F 0 "D21" V 8950 3700 50  0000 L CNN
 F 1 "1N4148" V 9050 3550 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 8950 3950 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 8950 3950 50  0001 C CNN
 F 3 "~" V 8950 3950 50  0001 C CNN
 	1    8950 3950
 	0    1    -1   0   
@@ -589,7 +589,7 @@ U 1 1 5C33D4AF
 P 3250 5800
 F 0 "R6" H 3309 5846 50  0000 L CNN
 F 1 "10k" H 3309 5755 50  0000 L CNN
-F 2 "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3250 5800 50  0001 C CNN
+F 2 "footprints:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3250 5800 50  0001 C CNN
 F 3 "~" H 3250 5800 50  0001 C CNN
 	1    3250 5800
 	1    0    0    -1  
@@ -600,7 +600,7 @@ U 1 1 5C315059
 P 3650 6000
 F 0 "SW40" H 3650 6285 50  0000 C CNN
 F 1 "RESET" H 3650 6194 50  0000 C CNN
-F 2 "cftkb:SW_PUSH_6mm" H 3650 6200 50  0001 C CNN
+F 2 "footprints:SW_PUSH_6mm" H 3650 6200 50  0001 C CNN
 F 3 "" H 3650 6200 50  0001 C CNN
 	1    3650 6000
 	1    0    0    -1  
@@ -637,7 +637,7 @@ U 1 1 5C16F9AA
 P 5200 3150
 F 0 "C3" H 5291 3196 50  0000 L CNN
 F 1 "4.7u" H 5291 3105 50  0000 L CNN
-F 2 "cftkb:CP_Radial_D4.0mm_P1.50mm" H 5200 3150 50  0001 C CNN
+F 2 "footprints:CP_Radial_D4.0mm_P1.50mm" H 5200 3150 50  0001 C CNN
 F 3 "~" H 5200 3150 50  0001 C CNN
 	1    5200 3150
 	1    0    0    -1  
@@ -693,7 +693,7 @@ U 1 1 5C1ED964
 P 3300 2450
 F 0 "D41" V 3254 2518 50  0000 L CNN
 F 1 "3.6V" V 3345 2518 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 3300 2450 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 3300 2450 50  0001 C CNN
 F 3 "~" V 3300 2450 50  0001 C CNN
 	1    3300 2450
 	0    1    1    0   
@@ -704,7 +704,7 @@ U 1 1 5C1EE1C2
 P 3100 2450
 F 0 "D40" V 3050 2250 50  0000 L CNN
 F 1 "3.6V" V 3150 2250 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 3100 2450 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 3100 2450 50  0001 C CNN
 F 3 "~" V 3100 2450 50  0001 C CNN
 	1    3100 2450
 	0    1    1    0   
@@ -726,7 +726,7 @@ U 1 1 5C23318D
 P 2450 1900
 F 0 "R1" V 2550 1900 50  0000 C CNN
 F 1 "1.5k" V 2345 1900 50  0000 C CNN
-F 2 "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2450 1900 50  0001 C CNN
+F 2 "footprints:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2450 1900 50  0001 C CNN
 F 3 "~" H 2450 1900 50  0001 C CNN
 	1    2450 1900
 	-1   0    0    1   
@@ -748,7 +748,7 @@ U 1 1 5C24FB09
 P 2300 1350
 F 0 "F1" H 2232 1304 50  0000 R CNN
 F 1 "100mA" H 2232 1395 50  0000 R CNN
-F 2 "cftkb:polyfuse_5.1mm" H 2350 1150 50  0001 L CNN
+F 2 "footprints:polyfuse_5.1mm" H 2350 1150 50  0001 L CNN
 F 3 "~" H 2300 1350 50  0001 C CNN
 	1    2300 1350
 	-1   0    0    1   
@@ -772,7 +772,7 @@ U 1 1 5C281433
 P 5600 3150
 F 0 "C4" H 5692 3196 50  0000 L CNN
 F 1 "100n" H 5692 3105 50  0000 L CNN
-F 2 "cftkb:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5600 3150 50  0001 C CNN
+F 2 "footprints:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5600 3150 50  0001 C CNN
 F 3 "~" H 5600 3150 50  0001 C CNN
 	1    5600 3150
 	1    0    0    -1  
@@ -797,7 +797,7 @@ U 1 1 5C295A9E
 P 3650 2150
 F 0 "R2" V 3550 2050 50  0000 C CNN
 F 1 "75R" V 3550 2250 50  0000 C CNN
-F 2 "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3650 2150 50  0001 C CNN
+F 2 "footprints:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3650 2150 50  0001 C CNN
 F 3 "~" H 3650 2150 50  0001 C CNN
 	1    3650 2150
 	0    1    1    0   
@@ -808,7 +808,7 @@ U 1 1 5C2E8873
 P 3650 2250
 F 0 "R3" V 3750 2150 50  0000 C CNN
 F 1 "75R" V 3750 2350 50  0000 C CNN
-F 2 "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3650 2250 50  0001 C CNN
+F 2 "footprints:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3650 2250 50  0001 C CNN
 F 3 "~" H 3650 2250 50  0001 C CNN
 	1    3650 2250
 	0    1    1    0   
@@ -819,7 +819,7 @@ U 1 1 5C2EA162
 P 6000 3150
 F 0 "C5" H 6092 3196 50  0000 L CNN
 F 1 "100n" H 6092 3105 50  0000 L CNN
-F 2 "cftkb:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 6000 3150 50  0001 C CNN
+F 2 "footprints:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 6000 3150 50  0001 C CNN
 F 3 "~" H 6000 3150 50  0001 C CNN
 	1    6000 3150
 	1    0    0    -1  
@@ -840,7 +840,7 @@ U 1 1 5C3232F3
 P 3650 4600
 F 0 "Y1" V 3604 4688 50  0000 L CNN
 F 1 "16MHz" V 3695 4688 50  0000 L CNN
-F 2 "cftkb:Crystal_HC49-4H_Vertical" H 3650 4600 50  0001 C CNN
+F 2 "footprints:Crystal_HC49-4H_Vertical" H 3650 4600 50  0001 C CNN
 F 3 "~" H 3650 4600 50  0001 C CNN
 	1    3650 4600
 	0    1    1    0   
@@ -862,7 +862,7 @@ U 1 1 5C379723
 P 3650 4900
 F 0 "C1" H 3742 4946 50  0000 L CNN
 F 1 "22p" H 3742 4855 50  0000 L CNN
-F 2 "cftkb:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3650 4900 50  0001 C CNN
+F 2 "footprints:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3650 4900 50  0001 C CNN
 F 3 "~" H 3650 4900 50  0001 C CNN
 	1    3650 4900
 	1    0    0    -1  
@@ -873,7 +873,7 @@ U 1 1 5C390332
 P 3950 4900
 F 0 "C2" H 4042 4946 50  0000 L CNN
 F 1 "22p" H 4042 4855 50  0000 L CNN
-F 2 "cftkb:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3950 4900 50  0001 C CNN
+F 2 "footprints:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3950 4900 50  0001 C CNN
 F 3 "~" H 3950 4900 50  0001 C CNN
 	1    3950 4900
 	1    0    0    -1  
@@ -902,12 +902,12 @@ Wire Wire Line
 Wire Wire Line
 	3350 5100 2650 5100
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J2
+L Connector_Generic:Conn_02x03_Odd_Even ISP1
 U 1 1 5C3F2FD0
 P 4750 5100
-F 0 "J2" H 4800 5417 50  0000 C CNN
+F 0 "ISP1" H 4800 5417 50  0000 C CNN
 F 1 "AVR_ISP_6" H 4800 5326 50  0000 C CNN
-F 2 "cftkb:AVR_ICSP_3x2" H 4750 5100 50  0001 C CNN
+F 2 "footprints:AVR_ICSP_3x2" H 4750 5100 50  0001 C CNN
 F 3 "~" H 4750 5100 50  0001 C CNN
 	1    4750 5100
 	1    0    0    -1  
@@ -982,7 +982,7 @@ U 1 1 5C0FAB26
 P 10150 5600
 F 0 "H3" H 10250 5646 50  0000 L CNN
 F 1 "M2" H 10250 5555 50  0000 L CNN
-F 2 "cftkb:MountingHole_2.2mm_M2_Pad" H 10150 5600 50  0001 C CNN
+F 2 "footprints:MountingHole_2.2mm_M2_Pad" H 10150 5600 50  0001 C CNN
 F 3 "~" H 10150 5600 50  0001 C CNN
 	1    10150 5600
 	1    0    0    -1  
@@ -993,7 +993,7 @@ U 1 1 5C0FAB2C
 P 10150 5800
 F 0 "H6" H 10250 5846 50  0000 L CNN
 F 1 "M2" H 10250 5755 50  0000 L CNN
-F 2 "cftkb:MountingHole_2.2mm_M2_Pad" H 10150 5800 50  0001 C CNN
+F 2 "footprints:MountingHole_2.2mm_M2_Pad" H 10150 5800 50  0001 C CNN
 F 3 "~" H 10150 5800 50  0001 C CNN
 	1    10150 5800
 	1    0    0    -1  
@@ -1004,7 +1004,7 @@ U 1 1 5C122533
 P 9550 5600
 F 0 "H1" H 9650 5646 50  0000 L CNN
 F 1 "M2" H 9650 5555 50  0000 L CNN
-F 2 "cftkb:MountingHole_2.2mm_M2_Pad" H 9550 5600 50  0001 C CNN
+F 2 "footprints:MountingHole_2.2mm_M2_Pad" H 9550 5600 50  0001 C CNN
 F 3 "~" H 9550 5600 50  0001 C CNN
 	1    9550 5600
 	1    0    0    -1  
@@ -1015,7 +1015,7 @@ U 1 1 5C12253A
 P 9550 5800
 F 0 "H4" H 9650 5846 50  0000 L CNN
 F 1 "M2" H 9650 5755 50  0000 L CNN
-F 2 "cftkb:MountingHole_2.2mm_M2_Pad" H 9550 5800 50  0001 C CNN
+F 2 "footprints:MountingHole_2.2mm_M2_Pad" H 9550 5800 50  0001 C CNN
 F 3 "~" H 9550 5800 50  0001 C CNN
 	1    9550 5800
 	1    0    0    -1  
@@ -1026,7 +1026,7 @@ U 1 1 5C122541
 P 9550 6000
 F 0 "H7" H 9650 6046 50  0000 L CNN
 F 1 "M2" H 9650 5955 50  0000 L CNN
-F 2 "cftkb:MountingHole_2.2mm_M2_Pad" H 9550 6000 50  0001 C CNN
+F 2 "footprints:MountingHole_2.2mm_M2_Pad" H 9550 6000 50  0001 C CNN
 F 3 "~" H 9550 6000 50  0001 C CNN
 	1    9550 6000
 	1    0    0    -1  
@@ -1037,7 +1037,7 @@ U 1 1 5C122548
 P 10150 6000
 F 0 "H9" H 10250 6046 50  0000 L CNN
 F 1 "M2" H 10250 5955 50  0000 L CNN
-F 2 "cftkb:MountingHole_2.2mm_M2_Pad" H 10150 6000 50  0001 C CNN
+F 2 "footprints:MountingHole_2.2mm_M2_Pad" H 10150 6000 50  0001 C CNN
 F 3 "~" H 10150 6000 50  0001 C CNN
 	1    10150 6000
 	1    0    0    -1  
@@ -1048,7 +1048,7 @@ U 1 1 5C13CC43
 P 9850 5600
 F 0 "H2" H 9950 5646 50  0000 L CNN
 F 1 "M2" H 9950 5555 50  0000 L CNN
-F 2 "cftkb:MountingHole_2.2mm_M2_Pad" H 9850 5600 50  0001 C CNN
+F 2 "footprints:MountingHole_2.2mm_M2_Pad" H 9850 5600 50  0001 C CNN
 F 3 "~" H 9850 5600 50  0001 C CNN
 	1    9850 5600
 	1    0    0    -1  
@@ -1059,7 +1059,7 @@ U 1 1 5C13CC4A
 P 9850 5800
 F 0 "H5" H 9950 5846 50  0000 L CNN
 F 1 "M2" H 9950 5755 50  0000 L CNN
-F 2 "cftkb:MountingHole_2.2mm_M2_Pad" H 9850 5800 50  0001 C CNN
+F 2 "footprints:MountingHole_2.2mm_M2_Pad" H 9850 5800 50  0001 C CNN
 F 3 "~" H 9850 5800 50  0001 C CNN
 	1    9850 5800
 	1    0    0    -1  
@@ -1070,7 +1070,7 @@ U 1 1 5C13CC51
 P 9850 6000
 F 0 "H8" H 9950 6046 50  0000 L CNN
 F 1 "M2" H 9950 5955 50  0000 L CNN
-F 2 "cftkb:MountingHole_2.2mm_M2_Pad" H 9850 6000 50  0001 C CNN
+F 2 "footprints:MountingHole_2.2mm_M2_Pad" H 9850 6000 50  0001 C CNN
 F 3 "~" H 9850 6000 50  0001 C CNN
 	1    9850 6000
 	1    0    0    -1  
@@ -1081,7 +1081,7 @@ U 1 1 5C13CC58
 P 9550 6200
 F 0 "H10" H 9650 6246 50  0000 L CNN
 F 1 "M2" H 9650 6155 50  0000 L CNN
-F 2 "cftkb:MountingHole_2.2mm_M2_Pad" H 9550 6200 50  0001 C CNN
+F 2 "footprints:MountingHole_2.2mm_M2_Pad" H 9550 6200 50  0001 C CNN
 F 3 "~" H 9550 6200 50  0001 C CNN
 	1    9550 6200
 	1    0    0    -1  
@@ -1147,8 +1147,8 @@ L Device:R_Small R7
 U 1 1 5C757E3F
 P 5850 1550
 F 0 "R7" H 5909 1596 50  0000 L CNN
-F 1 "I2C" H 5909 1505 50  0000 L CNN
-F 2 "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5850 1550 50  0001 C CNN
+F 1 "2.2k" H 5909 1505 50  0000 L CNN
+F 2 "footprints:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5850 1550 50  0001 C CNN
 F 3 "~" H 5850 1550 50  0001 C CNN
 	1    5850 1550
 	1    0    0    -1  
@@ -1158,8 +1158,8 @@ L Device:R_Small R8
 U 1 1 5C75807F
 P 6100 1550
 F 0 "R8" H 6159 1596 50  0000 L CNN
-F 1 "I2C" H 6159 1505 50  0000 L CNN
-F 2 "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6100 1550 50  0001 C CNN
+F 1 "2.2k" H 6159 1505 50  0000 L CNN
+F 2 "footprints:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6100 1550 50  0001 C CNN
 F 3 "~" H 6100 1550 50  0001 C CNN
 	1    6100 1550
 	1    0    0    -1  
@@ -1178,7 +1178,7 @@ U 1 1 5C16FB14
 P 2050 5700
 F 0 "U1" H 1600 7250 50  0000 C CNN
 F 1 "ATMEGA328-PU" H 1600 7150 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W7.62mm_Socket" H 2050 5700 50  0001 C CIN
+F 2 "footprints:DIP-28_W7.62mm_Socket" H 2050 5700 50  0001 C CIN
 F 3 "http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf" H 2050 5700 50  0001 C CNN
 	1    2050 5700
 	1    0    0    -1  
@@ -1248,12 +1248,12 @@ Wire Wire Line
 Wire Wire Line
 	7350 4050 7950 4050
 $Comp
-L Switch:SW_Push SW33
+L Switch:SW_Push SW21
 U 1 1 5C149FBD
 P 8750 3750
-F 0 "SW33" H 8750 4035 50  0000 C CNN
+F 0 "SW21" H 8750 4035 50  0000 C CNN
 F 1 "SW_Push" H 8750 3950 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 8750 3950 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 8750 3950 50  0001 C CNN
 F 3 "" H 8750 3950 50  0001 C CNN
 	1    8750 3750
 	-1   0    0    -1  
@@ -1309,12 +1309,12 @@ F 3 "" H 6100 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D34
+L Device:D_Small_ALT D22
 U 1 1 5F33429E
 P 9250 4050
-F 0 "D34" V 9250 3800 50  0000 L CNN
+F 0 "D22" V 9250 3800 50  0000 L CNN
 F 1 "1N4148" V 9350 3650 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 9250 4050 50  0001 C CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 9250 4050 50  0001 C CNN
 F 3 "~" V 9250 4050 50  0001 C CNN
 	1    9250 4050
 	1    0    0    1   
@@ -1339,12 +1339,12 @@ Wire Wire Line
 	7550 3050 7550 3750
 Connection ~ 7550 3050
 $Comp
-L Device:Rotary_Encoder_Switch ENC1
+L Device:Rotary_Encoder_Switch SW22
 U 1 1 5F058911
 P 9700 3800
-F 0 "ENC1" H 9800 3450 50  0000 R CNN
+F 0 "SW22" H 9800 3450 50  0000 R CNN
 F 1 "Rotary_Encoder_Switch" H 9800 3550 50  0000 R CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 9550 3960 50  0001 C CNN
+F 2 "footprints:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 9550 3960 50  0001 C CNN
 F 3 "~" H 9700 4060 50  0001 C CNN
 	1    9700 3800
 	-1   0    0    1   
@@ -1355,17 +1355,17 @@ Connection ~ 8950 4050
 Wire Wire Line
 	8950 4050 9150 4050
 Text Label 10300 3900 0    50   ~ 0
-ENC_A
+ENC0_A
 Text Label 10300 3700 0    50   ~ 0
-ENC_B
+ENC0_B
 Wire Wire Line
 	10000 3900 10300 3900
 Wire Wire Line
 	10000 3700 10300 3700
 Text Label 2750 4700 0    50   ~ 0
-ENC_A
+ENC0_A
 Text Label 2750 4600 0    50   ~ 0
-ENC_B
+ENC0_B
 Wire Wire Line
 	9050 3700 9400 3700
 Wire Wire Line
@@ -1388,7 +1388,7 @@ U 1 1 5F4F038F
 P 2000 2300
 F 0 "USB1" H 1833 3337 60  0000 C CNN
 F 1 "USB_C_GCT_USB4085-Type-C" H 1833 3231 60  0000 C CNN
-F 2 "cftkb:USB_C_GCT_USB4085" H 2000 2300 60  0001 C CNN
+F 2 "footprints:USB_C_GCT_USB4085" H 2000 2300 60  0001 C CNN
 F 3 "" H 2000 2300 60  0001 C CNN
 	1    2000 2300
 	1    0    0    -1  
@@ -1421,7 +1421,7 @@ U 1 1 5F6CC101
 P 2750 2650
 F 0 "R5" V 2650 2550 50  0000 C CNN
 F 1 "5.1k" V 2650 2750 50  0000 C CNN
-F 2 "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2750 2650 50  0001 C CNN
+F 2 "footprints:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2750 2650 50  0001 C CNN
 F 3 "~" H 2750 2650 50  0001 C CNN
 	1    2750 2650
 	0    1    1    0   
@@ -1432,7 +1432,7 @@ U 1 1 5F6CDDD3
 P 2750 2050
 F 0 "R4" V 2650 1950 50  0000 C CNN
 F 1 "5.1k" V 2650 2150 50  0000 C CNN
-F 2 "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2750 2050 50  0001 C CNN
+F 2 "footprints:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2750 2050 50  0001 C CNN
 F 3 "~" H 2750 2050 50  0001 C CNN
 	1    2750 2050
 	0    1    1    0   
@@ -1504,7 +1504,7 @@ U 1 1 5F2502D0
 P 5100 1950
 F 0 "J1" H 5157 2417 50  0000 C CNN
 F 1 "SJ-43514" H 5157 2326 50  0000 C CNN
-F 2 "SJ-43514:CUI_SJ-43514" H 5100 1950 50  0001 L BNN
+F 2 "footprints:CUI_SJ-43514" H 5100 1950 50  0001 L BNN
 F 3 "1.04" H 5100 1950 50  0001 L BNN
 F 4 "MANUFACTURER RECOMMENDATIONS" H 5100 1950 50  0001 L BNN "Field4"
 F 5 "CUI INC" H 5100 1950 50  0001 L BNN "Field5"
@@ -1553,7 +1553,7 @@ U 1 1 5C466A7F
 P 3650 6200
 F 0 "SW41" H 3650 6485 50  0000 C CNN
 F 1 "BOOT" H 3650 6394 50  0000 C CNN
-F 2 "cftkb:SW_PUSH_6mm" H 3650 6400 50  0001 C CNN
+F 2 "footprints:SW_PUSH_6mm" H 3650 6400 50  0001 C CNN
 F 3 "" H 3650 6400 50  0001 C CNN
 	1    3650 6200
 	-1   0    0    1   

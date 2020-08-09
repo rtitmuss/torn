@@ -91,8 +91,6 @@ Wire Wire Line
 Connection ~ 7550 2350
 Wire Wire Line
 	7550 2350 7550 1650
-Wire Wire Line
-	7550 3050 7550 2350
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5C149111
@@ -171,8 +169,6 @@ Wire Wire Line
 Connection ~ 8050 2350
 Wire Wire Line
 	8050 2350 8050 1650
-Wire Wire Line
-	8050 3050 8050 2350
 $Comp
 L Switch:SW_Push SW3
 U 1 1 5C14948A
@@ -251,8 +247,6 @@ Wire Wire Line
 Connection ~ 8550 2350
 Wire Wire Line
 	8550 2350 8550 1650
-Wire Wire Line
-	8550 3050 8550 2350
 $Comp
 L Switch:SW_Push SW4
 U 1 1 5C1494C9
@@ -326,25 +320,14 @@ $EndComp
 Wire Wire Line
 	9450 3050 9450 3150
 $Comp
-L Switch:SW_Push SW19
-U 1 1 5C1494F3
-P 7750 3750
-F 0 "SW19" H 7750 4035 50  0000 C CNN
-F 1 "SW_Push" H 7750 3944 50  0000 C CNN
-F 2 "footprints:Kailh_socket_MX_optional" H 7750 3950 50  0001 C CNN
-F 3 "" H 7750 3950 50  0001 C CNN
-	1    7750 3750
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small_ALT D19
 U 1 1 5C1494F9
-P 7950 3950
-F 0 "D19" V 8000 3800 50  0000 L CNN
-F 1 "1N4148" V 7900 3600 50  0000 L CNN
-F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 7950 3950 50  0001 C CNN
-F 3 "~" V 7950 3950 50  0001 C CNN
-	1    7950 3950
+P 7900 4600
+F 0 "D19" V 7950 4450 50  0000 L CNN
+F 1 "1N4148" V 7850 4250 50  0000 L CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 7900 4600 50  0001 C CNN
+F 3 "~" V 7900 4600 50  0001 C CNN
+	1    7900 4600
 	0    1    -1   0   
 $EndComp
 Connection ~ 9050 1650
@@ -428,23 +411,23 @@ Wire Wire Line
 $Comp
 L Switch:SW_Push SW20
 U 1 1 5C149F7E
-P 8250 3750
-F 0 "SW20" H 8250 4035 50  0000 C CNN
-F 1 "SW_Push" H 8250 3944 50  0000 C CNN
-F 2 "footprints:Kailh_socket_MX_optional" H 8250 3950 50  0001 C CNN
-F 3 "" H 8250 3950 50  0001 C CNN
-	1    8250 3750
+P 8250 4400
+F 0 "SW20" H 8250 4685 50  0000 C CNN
+F 1 "SW_Push" H 8250 4594 50  0000 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 8250 4600 50  0001 C CNN
+F 3 "" H 8250 4600 50  0001 C CNN
+	1    8250 4400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small_ALT D20
 U 1 1 5C149F84
-P 8450 3950
-F 0 "D20" V 8500 3800 50  0000 L CNN
-F 1 "1N4148" V 8400 3600 50  0000 L CNN
-F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 8450 3950 50  0001 C CNN
-F 3 "~" V 8450 3950 50  0001 C CNN
-	1    8450 3950
+P 8450 4600
+F 0 "D20" V 8500 4450 50  0000 L CNN
+F 1 "1N4148" V 8400 4250 50  0000 L CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 8450 4600 50  0001 C CNN
+F 3 "~" V 8450 4600 50  0001 C CNN
+	1    8450 4600
 	0    1    -1   0   
 $EndComp
 Connection ~ 9550 1650
@@ -530,12 +513,12 @@ Wire Wire Line
 $Comp
 L Device:D_Small_ALT D21
 U 1 1 5C149FC3
-P 8950 3950
-F 0 "D21" V 8950 3700 50  0000 L CNN
-F 1 "1N4148" V 9050 3550 50  0000 L CNN
-F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 8950 3950 50  0001 C CNN
-F 3 "~" V 8950 3950 50  0001 C CNN
-	1    8950 3950
+P 8950 4600
+F 0 "D21" V 8950 4350 50  0000 L CNN
+F 1 "1N4148" V 9050 4200 50  0000 L CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 8950 4600 50  0001 C CNN
+F 3 "~" V 8950 4600 50  0001 C CNN
+	1    8950 4600
 	0    1    -1   0   
 $EndComp
 Connection ~ 10050 1650
@@ -1246,19 +1229,19 @@ Connection ~ 9950 3350
 Wire Wire Line
 	9950 3350 10450 3350
 Wire Wire Line
-	7350 4050 7950 4050
+	7350 4700 7900 4700
 $Comp
 L Switch:SW_Push SW21
 U 1 1 5C149FBD
-P 8750 3750
-F 0 "SW21" H 8750 4035 50  0000 C CNN
-F 1 "SW_Push" H 8750 3950 50  0000 C CNN
-F 2 "footprints:Kailh_socket_MX_optional" H 8750 3950 50  0001 C CNN
-F 3 "" H 8750 3950 50  0001 C CNN
-	1    8750 3750
+P 8750 4400
+F 0 "SW21" H 8750 4685 50  0000 C CNN
+F 1 "SW_Push" H 8750 4600 50  0000 C CNN
+F 2 "footprints:Kailh_socket_MX_optional" H 8750 4600 50  0001 C CNN
+F 3 "" H 8750 4600 50  0001 C CNN
+	1    8750 4400
 	-1   0    0    -1  
 $EndComp
-Text Label 7350 4050 2    50   ~ 0
+Text Label 7350 4700 2    50   ~ 0
 ROW3
 $Comp
 L power:GND #PWR0102
@@ -1311,75 +1294,26 @@ $EndComp
 $Comp
 L Device:D_Small_ALT D22
 U 1 1 5F33429E
-P 9250 4050
-F 0 "D22" V 9250 3800 50  0000 L CNN
-F 1 "1N4148" V 9350 3650 50  0000 L CNN
-F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 9250 4050 50  0001 C CNN
-F 3 "~" V 9250 4050 50  0001 C CNN
-	1    9250 4050
-	1    0    0    1   
+P 9400 4600
+F 0 "D22" V 9400 4350 50  0000 L CNN
+F 1 "1N4148" V 9500 4200 50  0000 L CNN
+F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 9400 4600 50  0001 C CNN
+F 3 "~" V 9400 4600 50  0001 C CNN
+	1    9400 4600
+	0    1    -1   0   
 $EndComp
+Connection ~ 8450 4700
 Wire Wire Line
-	8050 3050 8050 3750
-Connection ~ 8050 3050
-Connection ~ 7950 4050
+	8450 4400 8450 4500
 Wire Wire Line
-	7950 3850 7950 3750
+	8950 4400 8950 4500
 Wire Wire Line
-	7950 4050 8450 4050
-Connection ~ 8450 4050
-Wire Wire Line
-	8450 3750 8450 3850
-Wire Wire Line
-	8550 3050 8550 3750
-Connection ~ 8550 3050
-Wire Wire Line
-	8950 3750 8950 3850
-Wire Wire Line
-	7550 3050 7550 3750
-Connection ~ 7550 3050
-$Comp
-L Device:Rotary_Encoder_Switch SW22
-U 1 1 5F058911
-P 9700 3800
-F 0 "SW22" H 9800 3450 50  0000 R CNN
-F 1 "Rotary_Encoder_Switch" H 9800 3550 50  0000 R CNN
-F 2 "footprints:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 9550 3960 50  0001 C CNN
-F 3 "~" H 9700 4060 50  0001 C CNN
-	1    9700 3800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8450 4050 8950 4050
-Connection ~ 8950 4050
-Wire Wire Line
-	8950 4050 9150 4050
-Text Label 10300 3900 0    50   ~ 0
+	8450 4700 8950 4700
+Connection ~ 8950 4700
+Text Label 10050 3700 0    50   ~ 0
 ENC0_A
-Text Label 10300 3700 0    50   ~ 0
+Text Label 10050 3500 0    50   ~ 0
 ENC0_B
-Wire Wire Line
-	10000 3900 10300 3900
-Wire Wire Line
-	10000 3700 10300 3700
-Text Label 2750 4700 0    50   ~ 0
-ENC0_A
-Text Label 2750 4600 0    50   ~ 0
-ENC0_B
-Wire Wire Line
-	9050 3700 9400 3700
-Wire Wire Line
-	9050 2350 9050 3050
-Connection ~ 9050 3050
-Wire Wire Line
-	9050 3050 9050 3700
-Connection ~ 9400 3700
-Wire Wire Line
-	9400 3700 9700 3700
-Wire Wire Line
-	9350 4050 9400 4050
-Wire Wire Line
-	9400 4050 9400 3900
 Wire Wire Line
 	3550 2250 3300 2250
 $Comp
@@ -1488,16 +1422,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0105
 U 1 1 5F1C872A
-P 10100 3800
-F 0 "#PWR0105" H 10100 3550 50  0001 C CNN
-F 1 "GND" H 10105 3627 50  0000 C CNN
-F 2 "" H 10100 3800 50  0001 C CNN
-F 3 "" H 10100 3800 50  0001 C CNN
-	1    10100 3800
+P 9850 3600
+F 0 "#PWR0105" H 9850 3350 50  0001 C CNN
+F 1 "GND" H 9855 3427 50  0000 C CNN
+F 2 "" H 9850 3600 50  0001 C CNN
+F 3 "" H 9850 3600 50  0001 C CNN
+	1    9850 3600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10000 3800 10100 3800
 $Comp
 L SJ-43514:SJ-43514 J1
 U 1 1 5F2502D0
@@ -1569,4 +1501,93 @@ Wire Wire Line
 	3950 6200 3950 6700
 Wire Wire Line
 	2650 6300 2750 6300
+Wire Wire Line
+	9050 4350 9200 4350
+$Comp
+L Device:Rotary_Encoder_Switch SW19
+U 1 1 5FA189FF
+P 7800 4050
+F 0 "SW19" V 8150 4000 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" H 8000 3350 50  0001 R CNN
+F 2 "footprints:Kailh_socket_MX_optional_EC11E" H 7650 4210 50  0001 C CNN
+F 3 "~" H 7800 4310 50  0001 C CNN
+	1    7800 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 4700 9400 4700
+Connection ~ 7900 4700
+Wire Wire Line
+	7900 4700 8450 4700
+Wire Wire Line
+	7900 4500 7900 4350
+Wire Wire Line
+	7700 4350 7550 4350
+Connection ~ 8050 3050
+Connection ~ 8550 3050
+Connection ~ 9050 3050
+Connection ~ 7550 3050
+Connection ~ 9400 4700
+Wire Wire Line
+	9400 4700 9600 4700
+Wire Wire Line
+	9400 4500 9400 4350
+$Comp
+L Device:Rotary_Encoder_Switch SW22
+U 1 1 5F058911
+P 9300 4050
+F 0 "SW22" V 9650 4050 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" H 9400 3800 50  0001 R CNN
+F 2 "footprints:Kailh_socket_MX_optional_EC11E" H 9150 4210 50  0001 C CNN
+F 3 "~" H 9300 4310 50  0001 C CNN
+	1    9300 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7700 3500 9200 3500
+Wire Wire Line
+	9850 3600 9300 3600
+Wire Wire Line
+	7800 3600 7800 3750
+Wire Wire Line
+	7700 3500 7700 3750
+Wire Wire Line
+	10050 3700 9400 3700
+Wire Wire Line
+	7900 3700 7900 3750
+Wire Wire Line
+	9400 3750 9400 3700
+Connection ~ 9400 3700
+Wire Wire Line
+	9400 3700 7900 3700
+Wire Wire Line
+	9300 3750 9300 3600
+Connection ~ 9300 3600
+Wire Wire Line
+	9300 3600 7800 3600
+Wire Wire Line
+	9200 3750 9200 3500
+Connection ~ 9200 3500
+Wire Wire Line
+	9200 3500 10050 3500
+Wire Wire Line
+	8050 3050 8050 4400
+Wire Wire Line
+	8550 3050 8550 4400
+Wire Wire Line
+	9050 3050 9050 4350
+Wire Wire Line
+	7550 3050 7550 4350
+Wire Wire Line
+	7550 2350 7550 3050
+Wire Wire Line
+	8050 2350 8050 3050
+Wire Wire Line
+	8550 2350 8550 3050
+Wire Wire Line
+	9050 2350 9050 3050
+Text Label 2750 4600 0    50   ~ 0
+ENC0_B
+Text Label 2750 4700 0    50   ~ 0
+ENC0_A
 $EndSCHEMATC

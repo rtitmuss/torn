@@ -1,4 +1,4 @@
-18735611546624237
+18738805490271237
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82320,6 +82320,13 @@ MX,cherry,gateron,kailh,pg1511,socket
 4
 2
 footprints
+Kailh_socket_MX_optional_EC11E
+MX-style keyswitch with support for optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
+9
+5
+footprints
 LED_D3.0mm
 LED, diameter 3.0mm, 2 pins
 LED diameter 3.0mm 2 pins
@@ -82368,6 +82375,13 @@ USB_C_GCT_USB4085
 0
 20
 17
+footprints
+foo
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
 footprints
 polyfuse_5.1mm
 

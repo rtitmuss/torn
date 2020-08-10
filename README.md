@@ -18,3 +18,13 @@ The firmware will be compatible with [VIA](https://caniusevia.com/).
 [PCBs](./doc/pcb.md)
 
 [BOM](https://octopart.com/bom-tool/Ugs27yH5)
+
+
+### License
+
+![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)
+
+The Torn Keyboard is licensed under [https://creativecommons.org/licenses/by-nc/4.0](https://creativecommons.org/licenses/by-nc/4.0).
+
+This PCB design may be freely reproduced, modified, and manufactured for personal use only. If you would like to use this design commercially please contact me at richard.titmuss@gmail.com to request permission.
+ 

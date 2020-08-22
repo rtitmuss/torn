@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/richardt/keyboard/torn/pcb_right/torn_right.sch)
-    (date "2020 August 09, Sunday 19:57:10")
+    (date "Date")
     (tool "Eeschema (5.1.6-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

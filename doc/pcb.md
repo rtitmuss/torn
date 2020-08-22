@@ -1,24 +1,32 @@
 Torn PCBs
 ===============
 
-## V2.0
+## Schematics
 
-![torn](./img/pcb-left-top-v2.svg)
+[Left schematic](./release/torn_left-schematic.pdf) | [Right schematic](./release/torn_right-schematic.pdf)
 
-![torn](./img/pcb-left-bottom-v2.svg)
+[Left interactive BOM](./release/torn_left-ibom.html) | [Right interactive BOM](./release/torn_right-ibom.html)
 
-![torn](./img/pcb-right-top-v2.svg)
+## Top
 
-![torn](./img/pcb-right-bottom-v2.svg)
+![torn](./release/torn_left-top.svg) ![torn](./release/torn_right-top.svg)
 
-![torn](./img/plate-top-v2.svg)
+## Bottom
 
-![torn](./img/plate-bottom-v2.svg)
+![torn](./release/torn_right-bottom.svg) ![torn](./release/torn_left-bottom.svg)
+
+## Plate
+
+![torn](./release/torn_plate-top.svg) ![torn](./release/torn_plate-bottom.svg)
 
 ## V1.0
 
-![torn](./img/pcb-right-front.jpg)
-![torn](./img/pcb-right-back.jpg)
-![torn](./img/pcb-left-front.jpg)
-![torn](./img/pcb-left-back.jpg)
+<p>
+<img src="./img/pcb-right-front.jpg" width="300" />
+<img src="./img/pcb-right-back.jpg" width="300" />
+</p>
 
+<p>
+<img src="./img/pcb-left-front.jpg" width="300" />
+<img src="./img/pcb-left-back.jpg" width="300" />
+</p>

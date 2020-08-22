@@ -1,0 +1,94 @@
+kiplot:
+  version: 1
+
+preflight:
+  update_xml: false
+  run_erc: true
+  run_drc: true
+  check_zone_fills: true
+  ignore_unconnected: false
+  filters:
+    - filter: 'Ignore pad too close to pad for USB1'
+      number: 19
+      regex:  'USB1'
+
+outputs:
+  - name: "Gerber files"
+    comment: "Plot gerber files"
+    type: gerber
+    dir: gerber
+    options:
+      # generic layer options
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      use_aux_axis_as_origin: false
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: true
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+
+      # gerber options
+      line_width: 0.1
+      subtract_mask_from_silk: false
+      use_protel_extensions: true
+      gerber_precision: 4.6
+      create_gerber_job_file: true
+      use_gerber_x2_attributes: true
+      use_gerber_net_attributes: true
+
+    layers:
+      - layer: F.Cu
+      - layer: B.Cu
+      - layer: F.SilkS
+      - layer: B.SilkS
+      - layer: F.Mask
+      - layer: B.Mask
+      - layer: Edge.Cuts
+
+  - name: "Drill files"
+    comment: "Plot drill files"
+    type: excellon
+    dir: gerber
+    options:
+      metric_units: true
+      pth_and_npth_single_file: false
+      use_aux_axis_as_origin: false
+      minimal_header: false
+      mirror_y_axis: false
+      map:
+        type: 'ps'
+
+  - name: "schema"
+    comment: "Print schematic (PDF)"
+    type: pdf_sch_print
+    dir: doc
+    options:
+      output: '%f-schematic.%x'
+
+  - name: "ibom"
+    comment: "Iteractive bom"
+    type: ibom
+    dir: doc
+
+  - name: "pcbdraw"
+    comment: "2D render top"
+    type: pcbdraw
+    dir: doc
+    options:
+      style: '/opt/pcbdraw/pcbdraw/styles/jlcpcb-green-hasl.json'
+      style:
+        board: '#000000'
+        copper: '#474543'
+
+  - name: "pcbdraw"
+    comment: "2D render bottom"
+    type: pcbdraw
+    dir: doc
+    options:
+      bottom: true
+      style: '/opt/pcbdraw/pcbdraw/styles/jlcpcb-green-hasl.json'
+      style:
+        board: '#000000'
+        copper: '#474543'
+

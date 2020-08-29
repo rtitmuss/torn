@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri /Users/richardt/keyboard/torn/footprints.pretty)(options "")(descr ""))
+)

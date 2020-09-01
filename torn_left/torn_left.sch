@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Torn Keyboard - Left"
 Date ""
-Rev "v1"
+Rev "v2.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -578,10 +578,10 @@ F 3 "~" H 3250 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW40
+L Switch:SW_Push PB1
 U 1 1 5C315059
 P 3650 6000
-F 0 "SW40" H 3650 6285 50  0000 C CNN
+F 0 "PB1" H 3650 6285 50  0000 C CNN
 F 1 "RESET" H 3650 6194 50  0000 C CNN
 F 2 "footprints:SW_PUSH_6mm" H 3650 6200 50  0001 C CNN
 F 3 "" H 3650 6200 50  0001 C CNN
@@ -671,10 +671,10 @@ USB_D-
 Text Label 2750 6000 0    50   ~ 0
 RESET
 $Comp
-L Device:D_Schottky_Small_ALT D41
+L Device:D_Schottky_Small_ALT D51
 U 1 1 5C1ED964
 P 3300 2450
-F 0 "D41" V 3254 2518 50  0000 L CNN
+F 0 "D51" V 3254 2518 50  0000 L CNN
 F 1 "3.6V" V 3345 2518 50  0000 L CNN
 F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 3300 2450 50  0001 C CNN
 F 3 "~" V 3300 2450 50  0001 C CNN
@@ -682,10 +682,10 @@ F 3 "~" V 3300 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky_Small_ALT D40
+L Device:D_Schottky_Small_ALT D50
 U 1 1 5C1EE1C2
 P 3100 2450
-F 0 "D40" V 3050 2250 50  0000 L CNN
+F 0 "D50" V 3050 2250 50  0000 L CNN
 F 1 "3.6V" V 3150 2250 50  0000 L CNN
 F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 3100 2450 50  0001 C CNN
 F 3 "~" V 3100 2450 50  0001 C CNN
@@ -1480,10 +1480,10 @@ ROW1
 Text Label 2750 6700 0    50   ~ 0
 ROW3
 $Comp
-L Switch:SW_Push SW41
+L Switch:SW_Push PB2
 U 1 1 5C466A7F
 P 3650 6200
-F 0 "SW41" H 3650 6485 50  0000 C CNN
+F 0 "PB2" H 3650 6485 50  0000 C CNN
 F 1 "BOOT" H 3650 6394 50  0000 C CNN
 F 2 "footprints:SW_PUSH_6mm" H 3650 6400 50  0001 C CNN
 F 3 "" H 3650 6400 50  0001 C CNN

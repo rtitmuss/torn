@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Torn Keyboard - Right"
 Date ""
-Rev "v1.1"
+Rev "v2.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -781,10 +781,10 @@ F 3 "" H 4350 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D84
+L Device:D_Small_ALT D44
 U 1 1 5F33429E
 P 9450 4700
-F 0 "D84" V 9450 4450 50  0000 L CNN
+F 0 "D44" V 9450 4450 50  0000 L CNN
 F 1 "1N4148" V 9550 4300 50  0000 L CNN
 F 2 "footprints:D_DO-35_SOD27_P5.08mm_Horizontal" V 9450 4700 50  0001 C CNN
 F 3 "~" V 9450 4700 50  0001 C CNN
@@ -1005,10 +1005,10 @@ LED2
 Text Label 3050 1400 0    50   ~ 0
 LED3
 $Comp
-L Connector_Generic:Conn_01x04 OLED1
+L Connector_Generic:Conn_01x04 J3
 U 1 1 5F053FA8
 P 6150 4350
-F 0 "OLED1" H 6230 4342 50  0000 L CNN
+F 0 "J3" H 6230 4342 50  0000 L CNN
 F 1 "Conn_01x04" H 6230 4251 50  0000 L CNN
 F 2 "footprints:OLED_1side" H 6150 4350 50  0001 C CNN
 F 3 "~" H 6150 4350 50  0001 C CNN

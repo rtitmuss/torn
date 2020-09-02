@@ -802,7 +802,7 @@ U 1 1 5F058911
 P 9350 4200
 F 0 "SW44" H 9450 4500 50  0000 R CNN
 F 1 "Rotary_Encoder_Switch" H 9450 3950 50  0001 R CNN
-F 2 "footprints:Kailh_socket_MX_optional_EC11E" H 9200 4360 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_PG1350_EC11_optional" H 9200 4360 50  0001 C CNN
 F 3 "~" H 9350 4460 50  0001 C CNN
 	1    9350 4200
 	0    1    1    0   
@@ -1126,7 +1126,7 @@ U 1 1 5F444205
 P 7850 4200
 F 0 "SW41" H 7950 3850 50  0000 R CNN
 F 1 "Rotary_Encoder_Switch" H 7950 3950 50  0001 R CNN
-F 2 "footprints:Kailh_socket_MX_optional_EC11E" H 7700 4360 50  0001 C CNN
+F 2 "footprints:Kailh_socket_MX_PG1350_EC11_optional" H 7700 4360 50  0001 C CNN
 F 3 "~" H 7850 4460 50  0001 C CNN
 	1    7850 4200
 	0    1    1    0   

@@ -8,4 +8,5 @@
 **/gerber/
 **/gerber.zip
 .DS_Store
+fp-info-cache
 

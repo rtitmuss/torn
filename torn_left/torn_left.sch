@@ -982,17 +982,6 @@ F 3 "~" H 10150 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5C122533
-P 9550 5600
-F 0 "H1" H 9650 5646 50  0000 L CNN
-F 1 "M2" H 9650 5555 50  0000 L CNN
-F 2 "footprints:MountingHole_2.2mm_M2_Pad" H 9550 5600 50  0001 C CNN
-F 3 "~" H 9550 5600 50  0001 C CNN
-	1    9550 5600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H4
 U 1 1 5C12253A
 P 9550 5800
@@ -1023,17 +1012,6 @@ F 1 "M2" H 10250 5955 50  0000 L CNN
 F 2 "footprints:MountingHole_2.2mm_M2_Pad" H 10150 6000 50  0001 C CNN
 F 3 "~" H 10150 6000 50  0001 C CNN
 	1    10150 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5C13CC43
-P 9850 5600
-F 0 "H2" H 9950 5646 50  0000 L CNN
-F 1 "M2" H 9950 5555 50  0000 L CNN
-F 2 "footprints:MountingHole_2.2mm_M2_Pad" H 9850 5600 50  0001 C CNN
-F 3 "~" H 9850 5600 50  0001 C CNN
-	1    9850 5600
 	1    0    0    -1  
 $EndComp
 $Comp

@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Torn Keyboard - Right"
 Date ""
-Rev "v2.1"
+Rev "3.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1140,6 +1140,17 @@ F 1 "SYM_Arrow45_Small" H 9550 5510 50  0001 C CNN
 F 2 "footprints:torn_qr_code" H 9550 5600 50  0001 C CNN
 F 3 "~" H 9550 5600 50  0001 C CNN
 	1    9550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow45_Small PUCK1
+U 1 1 5F67D796
+P 9550 5400
+F 0 "PUCK1" H 9638 5401 50  0000 L CNN
+F 1 "PUCK" H 9550 5310 50  0001 C CNN
+F 2 "footprints:Tenting_Puck" H 9550 5400 50  0001 C CNN
+F 3 "~" H 9550 5400 50  0001 C CNN
+	1    9550 5400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

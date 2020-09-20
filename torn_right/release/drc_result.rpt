@@ -1,0 +1,14 @@
+** Drc report for /mnt/torn_right/torn_right.kicad_pcb **
+** Created on 2020-09-19 05:57:41 **
+
+** Found 2 DRC errors **
+ErrType(19): Pad too close to pad
+    @(66.374 mm, 158.454 mm): Pad of SW41 on All copper layers
+    @(67.950 mm, 160.300 mm): Pad A of SW41 on All copper layers
+ErrType(19): Pad too close to pad
+    @(121.285 mm, 137.160 mm): Pad of SW44 on All copper layers
+    @(121.349 mm, 139.586 mm): Pad A of SW44 on All copper layers
+
+** Found 0 unconnected pads **
+
+** End of Report **

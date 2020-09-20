@@ -1131,4 +1131,15 @@ Wire Wire Line
 Wire Wire Line
 	7750 3650 9250 3650
 Connection ~ 9250 3650
+$Comp
+L Graphic:SYM_Arrow45_Small QR1
+U 1 1 5F677063
+P 9550 5600
+F 0 "QR1" H 9638 5601 50  0000 L CNN
+F 1 "SYM_Arrow45_Small" H 9550 5510 50  0001 C CNN
+F 2 "footprints:torn_qr_code" H 9550 5600 50  0001 C CNN
+F 3 "~" H 9550 5600 50  0001 C CNN
+	1    9550 5600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

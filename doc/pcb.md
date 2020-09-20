@@ -22,15 +22,3 @@ Torn PCBs
 ## Base
 
 ![torn](./release/torn_base-top.svg) ![torn](./release/torn_base-bottom.svg)
-
-## V1.0
-
-<p>
-<img src="./img/pcb-right-front.jpg" width="300" />
-<img src="./img/pcb-right-back.jpg" width="300" />
-</p>
-
-<p>
-<img src="./img/pcb-left-front.jpg" width="300" />
-<img src="./img/pcb-left-back.jpg" width="300" />
-</p>

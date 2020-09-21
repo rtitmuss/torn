@@ -204,6 +204,19 @@ X S2 S2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Graphic_SYM_Arrow45_Small
+#
+DEF Graphic_SYM_Arrow45_Small #SYM 0 40 Y Y 1 F N
+F0 "#SYM" 170 40 50 H I C CNN
+F1 "Graphic_SYM_Arrow45_Small" 0 -90 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 10 50 -50 -60 60 N
+P 4 0 1 0 60 -60 10 -40 40 -10 60 -60 F
+ENDDRAW
+ENDDEF
+#
 # MCU_Microchip_ATmega_ATmega328P-PU
 #
 DEF MCU_Microchip_ATmega_ATmega328P-PU U 0 20 Y Y 1 F N

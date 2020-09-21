@@ -1,0 +1,28 @@
+** Drc report for /mnt/torn_left/torn_left.kicad_pcb **
+** Created on 2020-09-21 19:47:14 **
+
+** Found 7 DRC errors **
+ErrType(19): Pad too close to pad
+    @(114.554 mm, 137.284 mm): Pad of SW22 on All copper layers
+    @(114.618 mm, 139.709 mm): Pad A of SW22 on All copper layers
+ErrType(19): Pad too close to pad
+    @(159.707 mm, 57.480 mm): Pad B1 of USB1 on All copper layers
+    @(160.557 mm, 57.480 mm): Pad B4 of USB1 on All copper layers
+ErrType(19): Pad too close to pad
+    @(159.712 mm, 58.805 mm): Pad A12 of USB1 on All copper layers
+    @(160.562 mm, 58.805 mm): Pad A9 of USB1 on All copper layers
+ErrType(19): Pad too close to pad
+    @(164.807 mm, 57.480 mm): Pad B9 of USB1 on All copper layers
+    @(165.662 mm, 57.480 mm): Pad B12 of USB1 on All copper layers
+ErrType(19): Pad too close to pad
+    @(164.812 mm, 58.805 mm): Pad A4 of USB1 on All copper layers
+    @(165.662 mm, 58.805 mm): Pad A1 of USB1 on All copper layers
+ErrType(19): Pad too close to pad
+    @(169.120 mm, 157.183 mm): Pad A of SW19 on All copper layers
+    @(170.597 mm, 155.257 mm): Pad of SW19 on All copper layers
+ErrType(47): Footprint has incorrect courtyard (not a closed shape)
+    @(126.619 mm, 104.394 mm): Footprint PUCK1 on F.Cu
+
+** Found 0 unconnected pads **
+
+** End of Report **

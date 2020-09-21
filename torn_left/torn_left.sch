@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Torn Keyboard - Left"
 Date ""
-Rev "v2.1"
+Rev "3.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1568,4 +1568,15 @@ Text Label 2750 4600 0    50   ~ 0
 ENC0_B
 Text Label 2750 4700 0    50   ~ 0
 ENC0_A
+$Comp
+L Graphic:SYM_Arrow45_Small PUCK1
+U 1 1 5F69BEC1
+P 9550 5600
+F 0 "PUCK1" H 9720 5640 50  0001 C CNN
+F 1 "SYM_Arrow45_Small" H 9550 5510 50  0001 C CNN
+F 2 "footprints:Tenting_Puck" H 9550 5600 50  0001 C CNN
+F 3 "~" H 9550 5600 50  0001 C CNN
+	1    9550 5600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

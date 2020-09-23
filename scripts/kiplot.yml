@@ -13,10 +13,13 @@ preflight:
       regex:  'USB1'
     - filter: 'Ignore pad too close to pad for Encoders'
       number: 19
-      regex:  'Pad of SW\d\d on All copper layers'
+      regex:  'Pad of SW\d+ on All copper layers'
     - filter: 'Puck'
       number: 47
       regex: 'Footprint PUCK1 on F.Cu'
+    - filter: 'Enc'
+      number: 45
+      regex: 'Footprint H10 on F.Cu'
 
 outputs:
   - name: "Gerber files"

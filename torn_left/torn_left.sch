@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Torn Keyboard - Left"
 Date ""
-Rev "v2.1"
+Rev "3.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -439,17 +439,6 @@ Wire Wire Line
 Wire Wire Line
 	9550 3050 9550 2350
 $Comp
-L Switch:SW_Push SW6
-U 1 1 5C149F93
-P 10250 1650
-F 0 "SW6" H 10250 1935 50  0000 C CNN
-F 1 "SW_Push" H 10250 1844 50  0000 C CNN
-F 2 "footprints:Kailh_socket_MX_PG1350_optional" H 10250 1850 50  0001 C CNN
-F 3 "" H 10250 1850 50  0001 C CNN
-	1    10250 1650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small_ALT D6
 U 1 1 5C149F99
 P 10450 1850
@@ -521,12 +510,7 @@ F 3 "~" V 8950 4600 50  0001 C CNN
 	1    8950 4600
 	0    1    -1   0   
 $EndComp
-Connection ~ 10050 1650
-Wire Wire Line
-	10050 1650 10050 1250
 Connection ~ 10050 2350
-Wire Wire Line
-	10050 2350 10050 1650
 Wire Wire Line
 	10050 3050 10050 2350
 Text Label 7350 2650 2    50   ~ 0
@@ -1568,4 +1552,60 @@ Text Label 2750 4600 0    50   ~ 0
 ENC0_B
 Text Label 2750 4700 0    50   ~ 0
 ENC0_A
+$Comp
+L Graphic:SYM_Arrow45_Small PUCK1
+U 1 1 5F69BEC1
+P 9550 5600
+F 0 "PUCK1" H 9720 5640 50  0001 C CNN
+F 1 "SYM_Arrow45_Small" H 9550 5510 50  0001 C CNN
+F 2 "footprints:Tenting_Puck" H 9550 5600 50  0001 C CNN
+F 3 "~" H 9550 5600 50  0001 C CNN
+	1    9550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW6
+U 1 1 5F70A52E
+P 10350 1350
+F 0 "SW6" V 10700 1350 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" H 10450 1100 50  0001 R CNN
+F 2 "footprints:Kailh_socket_MX_PG1350_EC11_optional" H 10200 1510 50  0001 C CNN
+F 3 "~" H 10350 1610 50  0001 C CNN
+	1    10350 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 1250 10050 1650
+Wire Wire Line
+	10250 1650 10050 1650
+Connection ~ 10050 1650
+Wire Wire Line
+	10050 1650 10050 2350
+Wire Wire Line
+	10450 1050 10450 1000
+Wire Wire Line
+	10450 1000 10650 1000
+Text Label 10650 1000 0    50   ~ 0
+ENC0_A
+$Comp
+L power:GND #PWR?
+U 1 1 5F73D838
+P 10450 900
+F 0 "#PWR?" H 10450 650 50  0001 C CNN
+F 1 "GND" H 10455 727 50  0000 C CNN
+F 2 "" H 10450 900 50  0001 C CNN
+F 3 "" H 10450 900 50  0001 C CNN
+	1    10450 900 
+	0    -1   -1   0   
+$EndComp
+Text Label 10650 800  0    50   ~ 0
+ENC0_B
+Wire Wire Line
+	10350 1050 10350 900 
+Wire Wire Line
+	10350 900  10450 900 
+Wire Wire Line
+	10250 1050 10250 800 
+Wire Wire Line
+	10250 800  10650 800 
 $EndSCHEMATC

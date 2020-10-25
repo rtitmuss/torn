@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Torn Keyboard - Right"
 Date ""
-Rev "v2.1"
+Rev "3.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -445,17 +445,6 @@ Wire Wire Line
 Wire Wire Line
 	9600 3000 9600 2300
 $Comp
-L Switch:SW_Push SW28
-U 1 1 5C149F93
-P 10300 1600
-F 0 "SW28" H 10300 1885 50  0000 C CNN
-F 1 "SW_Push" H 10300 1794 50  0000 C CNN
-F 2 "footprints:Kailh_socket_MX_PG1350_optional" H 10300 1800 50  0001 C CNN
-F 3 "" H 10300 1800 50  0001 C CNN
-	1    10300 1600
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small_ALT D28
 U 1 1 5C149F99
 P 10500 1800
@@ -527,12 +516,7 @@ F 3 "~" V 9000 4700 50  0001 C CNN
 	1    9000 4700
 	0    1    -1   0   
 $EndComp
-Connection ~ 10100 1600
-Wire Wire Line
-	10100 1600 10100 1200
 Connection ~ 10100 2300
-Wire Wire Line
-	10100 2300 10100 1600
 Wire Wire Line
 	10100 3000 10100 2300
 Text Label 7400 2600 2    50   ~ 0
@@ -1142,4 +1126,60 @@ F 3 "~" H 9550 5600 50  0001 C CNN
 	1    9550 5600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Graphic:SYM_Arrow45_Small PUCK1
+U 1 1 5F67D796
+P 9550 5400
+F 0 "PUCK1" H 9638 5401 50  0000 L CNN
+F 1 "PUCK" H 9550 5310 50  0001 C CNN
+F 2 "footprints:Tenting_Puck" H 9550 5400 50  0001 C CNN
+F 3 "~" H 9550 5400 50  0001 C CNN
+	1    9550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW28
+U 1 1 5F6B1099
+P 10400 1300
+F 0 "SW28" H 10500 1600 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" H 10500 1050 50  0001 R CNN
+F 2 "footprints:Kailh_socket_MX_PG1350_EC11_optional" H 10250 1460 50  0001 C CNN
+F 3 "~" H 10400 1560 50  0001 C CNN
+	1    10400 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10100 1200 10100 1600
+Wire Wire Line
+	10300 1600 10100 1600
+Connection ~ 10100 1600
+Wire Wire Line
+	10100 1600 10100 2300
+Wire Wire Line
+	10500 1000 10500 900 
+Wire Wire Line
+	10500 900  10650 900 
+Wire Wire Line
+	10400 1000 10400 750 
+Wire Wire Line
+	10400 750  10650 750 
+Text Label 10650 650  0    50   ~ 0
+ENC1_B
+$Comp
+L power:GND #PWR0111
+U 1 1 5F6C6AD8
+P 10650 750
+F 0 "#PWR0111" H 10650 500 50  0001 C CNN
+F 1 "GND" H 10655 577 50  0000 C CNN
+F 2 "" H 10650 750 50  0001 C CNN
+F 3 "" H 10650 750 50  0001 C CNN
+	1    10650 750 
+	0    -1   -1   0   
+$EndComp
+Text Label 10650 900  0    50   ~ 0
+ENC1_A
+Wire Wire Line
+	10300 1000 10300 650 
+Wire Wire Line
+	10300 650  10650 650 
 $EndSCHEMATC

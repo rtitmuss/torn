@@ -1,0 +1,6 @@
+# Ignore pad too close to pad for USB1
+19,USB1
+# Ignore pad too close to pad for Encoders
+19,Pad of SW\d\d on All copper layers
+# Puck
+47,Footprint PUCK1 on F.Cu

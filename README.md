@@ -8,12 +8,11 @@ The split keyboard kit made by through hole components only. The design has been
 It uses an Atmega328P cpu, running QMK with VUSB:
 - [QMK firmware](https://github.com/qmk/qmk_firmware/blob/master/keyboards/torn/readme.md).
 - [Bootloader](https://github.com/rtitmuss/USBaspLoader).
+- Compatible with [VIA](https://caniusevia.com/)
 
-The firmware will be compatible with [VIA](https://caniusevia.com/) ([PR](https://github.com/the-via/keyboards/pull/319)).
-
-[PCB Renders](./doc/pcb.md), [BOM](https://octopart.com/bom-tool/Ugs27yH5)
-
-***I have not tested the latest PCB design yet. Use at your own risk!***
+Instructions are in the [Build guide](./doc/build.md).
+As well as the PCBs you need to buy the parts listed in the [BOM](https://octopart.com/bom-tool/Ugs27yH5).
+The latest PCB design is shown in these [renders](./doc/pcb.md).
 
 ### Thanks
 
@@ -55,5 +54,16 @@ This PCB design may be freely reproduced, modified, and manufactured for persona
  
 ### Gallery
 
+![torn](./doc/img/img3.jpg)
+
+![torn](./doc/img/img4.jpg)
+
+![torn](./doc/img/img5.jpg)
+
+![torn](./case/torn%20-%201.jpeg)
+
+![torn](./doc/img/img2.jpg)
+
 ![torn](./doc/img/img1.jpg)
+
 ![torn](./doc/img/img2.jpg)

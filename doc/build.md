@@ -191,6 +191,13 @@ For the small pins you are going to use a different technique than the rest of t
 
 ![alt_text](build/image28.jpg)
 
+---
+**NOTE**
+
+When solering USB C port pins you might get bridges in two places (see image below), this is fine because all those pins are connected to ground.
+
+![alt_text](build/image28_note.jpg)
+---
 
 **Step 12**
 

@@ -30,8 +30,8 @@ The following tools are required to build the Torn Keyboard kit:
 *   Soldering iron and solder wire (leaded solder recommended)
 *   Flush side cutters
 *   No-clean flux paste (recommended to prevent bridging on USB pins)
-*   Desoldering wick and Solder sucker (recommended to fix any mistakes) 
-*   Phillips head screwdriver 
+*   Desoldering wick and Solder sucker (recommended to fix any mistakes)
+*   Phillips head screwdriver
 
 
 ## What’s included
@@ -47,7 +47,7 @@ C3 | ***1 x 4.7uF Capacitor***
 C4, C5, C6 | ***3 x 0.1uF Capacitor***
 D1-44 | ***44 x 1n4148 Diode***
 D50, D51 | ***2 x 3.6V Zener Diode*** | Keep separate from the 1n4148 diodes!
-F1 | ***1 x 500ms Resettable fuse*** | 
+F1 | ***1 x 500ms Resettable fuse*** |
 ISP1 | **1 x 6 pin header***
 J1, J2 | ***2 x TRRS socket***
 L1, L2, L3 | ***3 x LED***
@@ -187,10 +187,17 @@ Insert the capacitors, solder and clip the legs.
 
 Insert and tape the USB C port to the board. Flip board over. Solder only one of the large bottom legs. Check the port is flush before soldering the other three legs.  Remove the tape.
 
-For the small pins you are going to use a different technique than the rest of the components. Apply no-clean flux paste across all pins. This step is possible without flux, but using it is highly recommended and will make the process much easier. Proceeding without flux for this step is not recommended. Apply a small amount of solder and drag your iron across the pins. Repeat until all holes are filled as pictured above.
+For the small pins you are going to use a different technique than the rest of the components. Apply no-clean flux paste across all pins. This step is possible without flux, but using it is highly recommended and will make the process much easier. Proceeding without flux for this step is not recommended. Apply a small amount of solder and drag your iron across the pins. Repeat until all holes are filled.
 
 ![alt_text](build/image28.jpg)
 
+---
+**NOTE**
+
+When solering USB C port pins you might get bridges in two places (see image below), this is fine because all those pins are connected to ground.
+
+![alt_text](build/image28_note.jpg)
+---
 
 **Step 12**
 
@@ -340,7 +347,7 @@ CHECK YOU HAVE THE RIGHT PART - it looks similar to U2, check the writing says *
 Insert the I/O Expander. You may have to GENTLY bend the pins slightly inward for proper alignment with the socket.
 
 
-### Let’s test 
+### Let’s test
 
 The firmware is preinstalled if you’ve bought a kit, otherwise before continuing see the instructions to flash the bootloader and qmk.
 
@@ -504,7 +511,7 @@ This guide uses an Arduino Uno to program the keyboard. You can use other ISP pr
 
 #### Arduino as ISP
 
-First you need to program the Arduino Uno as an ISP, as described in Load the Sketch at [https://www.arduino.cc/en/Tutorial/ArduinoISP#toc5](https://www.arduino.cc/en/Tutorial/ArduinoISP#toc5). 
+First you need to program the Arduino Uno as an ISP, as described in Load the Sketch at [https://www.arduino.cc/en/Tutorial/ArduinoISP#toc5](https://www.arduino.cc/en/Tutorial/ArduinoISP#toc5).
 
 
 #### Wiring the programmer

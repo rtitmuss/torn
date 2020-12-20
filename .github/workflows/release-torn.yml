@@ -1,0 +1,56 @@
+name: Release Torn
+
+on:
+  push:
+    tags:
+      - 'torn-v[0-9]+.[0-9]+*'
+
+jobs:
+  release-gerber-files:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Export torn left gerber
+      uses: nerdyscout/kicad-exports@v2.0
+      with:
+        config: scripts/kiplot.yml
+        dir: torn_left/release
+        board: torn_left/torn_left.kicad_pcb
+        schema: torn_left/torn_left.sch
+    - name: Export torn right gerber
+      uses: nerdyscout/kicad-exports@v2.0
+      with:
+        config: scripts/kiplot.yml
+        dir: torn_right/release
+        board: torn_right/torn_right.kicad_pcb
+        schema: torn_right/torn_right.sch
+    - name: Export base gerber
+      uses: nerdyscout/kicad-exports@v2.0
+      with:
+        config: scripts/kiplot.yml
+        dir: plates/torn_base/release
+        board: plates/torn_base/torn_base.kicad_pcb
+        schema: plates/torn_base/torn_base.sch
+    - name: Export plate gerber
+      uses: nerdyscout/kicad-exports@v2.0
+      with:
+        config: scripts/kiplot.yml
+        dir: plates/torn_plate/release
+        board: plates/torn_plate/torn_plate.kicad_pcb
+        schema: plates/torn_plate/torn_plate.sch
+
+    - name: Zip Gerber files
+      run: |
+          zip -r --junk-paths torn_left-gerber.zip torn_left/release
+          zip -r --junk-paths torn_right-gerber.zip torn_right/release
+          zip -r --junk-paths torn_plate-gerber.zip plates/torn_plate/release
+          zip -r --junk-paths torn_base-gerber.zip plates/torn_base/release
+
+    - name: Release to GiHub
+      uses: softprops/action-gh-release@v1
+      with:
+        files: "*.zip"
+        draft: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

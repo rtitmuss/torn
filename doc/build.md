@@ -97,7 +97,7 @@ Bend the legs straight down as close to the diode as possible, insert, solder an
 
 **2 x 5.1k Blue resistors (R4, R5)**
 
-Bend the leds straight down as close to the resistor as possible, insert, solder and clip the legs.
+Bend the legs straight down as close to the resistor as possible, insert, solder and clip the legs.
 
 ![alt_text](build/image25.jpg)
 
@@ -106,7 +106,7 @@ Bend the leds straight down as close to the resistor as possible, insert, solder
 
 **2 x 2.2k Blue resistors (R7, R8)**
 
-Bend the leds straight down as close to the resistor as possible, insert, solder and clip the legs.
+Bend the legs straight down as close to the resistor as possible, insert, solder and clip the legs.
 
 ![alt_text](build/image19.jpg)
 
@@ -115,16 +115,16 @@ Bend the leds straight down as close to the resistor as possible, insert, solder
 
 **1 x 10k Blue resistor (R6)**
 
-Bend the leds straight down as close to the resistor as possible, insert, solder and clip the legs.
+Bend the legs straight down as close to the resistor as possible, insert, solder and clip the legs.
 
 ![alt_text](build/image22.jpg)
 
 
 **Step 5**
 
-**5 x 75 Tan resistor (R2, R3)**
+**2 x 75 Tan resistor (R2, R3)**
 
-Bend the leds straight down as close to the resistor as possible, insert, solder and clip the legs.
+Bend the legs straight down as close to the resistor as possible, insert, solder and clip the legs.
 
 ![alt_text](build/image14.jpg)
 
@@ -133,7 +133,7 @@ Bend the leds straight down as close to the resistor as possible, insert, solder
 
 **1 x 1.5k Tan resistor (R1)**
 
-Bend the leds straight down as close to the resistor as possible, insert, solder and clip the legs.
+Bend the legs straight down as close to the resistor as possible, insert, solder and clip the legs.
 
 ![alt_text](build/image20.jpg)
 
@@ -276,7 +276,7 @@ Bend the legs straight down as close to the diode as possible, insert, solder an
 
 **3 x 75 Tan resistor  (R50-52)**
 
-Bend the leds straight down as close to the resistor as possible, insert, solder and clip the legs.
+Bend the legs straight down as close to the resistor as possible, insert, solder and clip the legs.
 
 ![alt_text](build/image2.jpg)
 

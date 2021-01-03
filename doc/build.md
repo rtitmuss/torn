@@ -274,7 +274,7 @@ Bend the legs straight down as close to the diode as possible, insert, solder an
 
 **Step 19**
 
-**3 x 75 Tan resistor  (R50-52)**
+**3 x 5.1k Tan resistor  (R50-52)**
 
 Bend the legs straight down as close to the resistor as possible, insert, solder and clip the legs.
 

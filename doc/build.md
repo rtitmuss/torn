@@ -53,7 +53,7 @@ J1, J2 | ***2 x TRRS socket***
 L1, L2, L3 | ***3 x LED***
 OLED1 | ***1 x OLED display***
 R1 | ***1 x 1.5k Tan Resistor*** | ***Brown - Green - Red***
-R2, R3 | ***2 x 75 Tan Resistor*** | ***Purple - Green - Orange***
+R2, R3 | ***2 x 75 Tan Resistor*** | ***Purple - Green - Black***
 R6 | ***1 x  10k Blue Resistor*** | ***Brown - Black - Orange***
 R4, R5 | ***2 x 5.1k Blue Resistor*** | ***Green - Brown - Red***
 R7, R8 | ***2 x 2.2k Blue Resistor*** | ***Red - Red - Red***

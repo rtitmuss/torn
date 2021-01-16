@@ -14,6 +14,8 @@ Instructions are in the [Build guide](./doc/build.md).
 As well as the PCBs you need to buy the parts listed in the [BOM](https://octopart.com/bom-tool/5oG983n7).
 The latest PCB design is shown in these [renders](./doc/pcb.md).
 
+You can ask questions and get help on the [Torn Discord channel](https://discord.gg/dy3sCpUj).
+
 ### Thanks
 
 It would not have been possible for me to design Torn without the information and designs published by the mechanical keyboard community. So thanks go to ...

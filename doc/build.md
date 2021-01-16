@@ -140,7 +140,7 @@ Bend the legs straight down as close to the resistor as possible, insert, solder
 
 **Step 7**
 
-**2 x 3.6V Zener Diode (D40, D41)**
+**2 x 3.6V Zener Diode (D50, D51)**
 
 THIS PART HAS A SPECIFIC ORIENTATION - the **black bar on the diode will point UP** and will line up with the square pad.
 

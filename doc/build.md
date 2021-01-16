@@ -536,7 +536,7 @@ The Arduino Uno board needs a 10µF electrolytic capacitor connected to RESET an
 
 #### Flash the bootloader
 
-Download the USBaspLoader source code from [https://github.com/rtitmuss/USBaspLoader/tree/torn](https://github.com/rtitmuss/USBaspLoader/tree/torn).
+Download the USBaspLoader source code from [https://github.com/rtitmuss/USBaspLoader/tree/torn](https://github.com/rtitmuss/USBaspLoader/tree/torn). You may need to modify the `PROGRAMMER` setting in `Makefile.inc` if you are using a different ISP programmer or OS.
 
 You can then flash the bootloader using:
 

@@ -11,7 +11,7 @@ It uses an Atmega328P cpu, running QMK with VUSB:
 - Compatible with [VIA](https://caniusevia.com/)
 
 Instructions are in the [Build guide](./doc/build.md).
-As well as the PCBs you need to buy the parts listed in the [BOM](https://octopart.com/bom-tool/Ugs27yH5).
+As well as the PCBs you need to buy the parts listed in the [BOM](https://octopart.com/bom-tool/5oG983n7).
 The latest PCB design is shown in these [renders](./doc/pcb.md).
 
 ### Thanks

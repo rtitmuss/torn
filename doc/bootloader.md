@@ -65,6 +65,8 @@ If everything is working you should get a message similar to this one:
     avrdude done.  Thank you.    
 ```
 
+Continue to *Flashing the bootloader*
+
 ![alt_text](build/image47.jpg)
 
 

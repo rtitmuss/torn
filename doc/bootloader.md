@@ -27,6 +27,8 @@ Digital Pin 10 | ICP Pin 5 - Reset
 
 The Arduino Uno board needs a 10µF electrolytic capacitor connected to RESET and GND with the positive (long leg) connected to RESET. The capacitor has to be placed after the programmer board has been loaded with the ISP sketch.
 
+Continue to *Flashing the bootloader*
+
 ![alt_text](build/image18.jpg)
 
 
@@ -48,7 +50,7 @@ Plug the USBasp into your computer. Connect the ribbon cable between your USBasp
 
 Run `avrdude -c usbasp -p atmega328p` in your Terminal.
 
-If everything is working you should get a message simliar to this one: 
+If everything is working you should get a message similar to this one: 
 
 ```
 
@@ -78,7 +80,7 @@ If you are using an Arduino as ISP you may need to change the path to your Ardui
 
 ### USBasp
 
-You need to edit `Makefile.inc`and uncomment Line 40. Comment out Line 41 by adding a `#` infront of it. Make sure to save your changes before continuing. 
+You need to edit `Makefile.inc`and uncomment Line 40. Comment out Line 41 by adding a `#` in front of it. Make sure to save your changes before continuing. 
 
 
 ### Flashing

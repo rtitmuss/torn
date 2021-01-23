@@ -363,6 +363,11 @@ Select the Key Tester tab, and enable Test Matrix. You can now test each key swi
 
 The following instructions are for MX Switches with Kailh sockets. You need to do all steps on both the left and right boards.
 
+The mechanical assembly will follow this diagram:
+
+![alt_text](build/stackup_mx.svg)
+
+
 **Step 1**
 
 **42-44 x Kailh Sockets**
@@ -449,7 +454,6 @@ Finally add the keycaps and knobs. You're finished!
 ![alt_text](build/image6.jpg)
 
 
-
 ### Kailh Choc Switches
 
 The following instructions are for Choc switches. You need to do all steps on both the left and right boards. You can also use the optional EC11 encoders and OLED display with Choc switches, but I choose to leave them both off for this build.
@@ -457,6 +461,10 @@ The following instructions are for Choc switches. You need to do all steps on bo
 When using Choc switches it looks better if you lower the acrylic cover, to do this don’t use the IC sockets (steps 13 and 22 in the main instructions) and solder the ATMega328P and MCP23017 directly to the PCB.
 
 ![alt_text](build/image3.jpg)
+
+The mechanical assembly will follow this diagram:
+
+![alt_text](build/stackup_mx.svg)
 
 
 **Step 1**

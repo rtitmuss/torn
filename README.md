@@ -5,14 +5,17 @@ Torn
 
 The split keyboard kit made by through hole components only. The design has been inspired by the [Corne](https://github.com/foostan/crkbd), [Plaid](https://github.com/hsgw/plaid) and [Discipline](https://github.com/coseyfannitutti/discipline) keyboards.
 
-It uses an Atmega328P cpu, running QMK with VUSB:
+Torn uses an Atmega328P cpu, running QMK with VUSB:
 - [QMK firmware](https://github.com/qmk/qmk_firmware/blob/master/keyboards/torn/readme.md).
 - [Bootloader](https://github.com/rtitmuss/USBaspLoader).
 - Compatible with [VIA](https://caniusevia.com/)
 
+### Building your own Torn keyboard
+
+Later this year you will be able to buy a Torn keyboard kit from [splitkb.com](https://blog.splitkb.com/blog/january-2021).
+Alternatively you can also buy [all the parts](./doc/bom.md) needed youself.
+
 Instructions are in the [Build guide](./doc/build.md).
-As well as the PCBs you need to buy the parts listed in the [BOM](https://octopart.com/bom-tool/5oG983n7).
-The latest PCB design is shown in these [renders](./doc/pcb.md).
 
 You can ask questions and get help on the [Torn Discord channel](https://discord.gg/mamAqNccju).
 
@@ -50,11 +53,13 @@ It would not have been possible for me to design Torn without the information an
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)
 
-The Torn Keyboard is licensed under [https://creativecommons.org/licenses/by-nc/4.0](https://creativecommons.org/licenses/by-nc/4.0).
+The Torn Keyboard is licensed under [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0).
 
 This PCB design may be freely reproduced, modified, and manufactured for personal use only. If you would like to use this design commercially please contact me at richard.titmuss@gmail.com to request permission.
  
 ### Gallery
+
+The latest PCB design is shown in these [renders](./doc/pcb.md).
 
 ![torn](./doc/img/img3.jpg)
 

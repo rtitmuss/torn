@@ -11,7 +11,7 @@ Cherry MX compatible build:
 *   USB C cable
 *   TRRS cable
 *   42-44 x MX Cherry MX compatible switches \
-42-44 x Kailh PCB Socket N:CPG151101S11 **(optional)**
+42-44 x Kailh PCB Socket CPG151101S11 **(optional)**
 *   Keycaps for MX switches
 *   2 x EC11 Encoders and knobs **(optional)**
 
@@ -64,11 +64,11 @@ U1 | ***1 x ATmega328P***
 U2 | ***1 x I/O Expander***
 USB1 | ***1 x USB4085 SB C port***
 Y1 | ***1 x 16MHz Crystal***
-. | ***10 x 3mm spacer***
-. | ***6 x 8mm spacer***
-. | ***16 x 3+3mm spacer***
-. | ***6 x 5mm screw***
-. | ***26 x 3mm screw***
+. | ***10 x m2 3mm spacer***
+. | ***6 x m2 8mm spacer***
+. | ***16 x m2 3mm+3mm spacer***
+. | ***6 x m2 5mm screw***
+. | ***26 x m2 3mm screw***
 . | ***8 x Feet***
 
 

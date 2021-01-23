@@ -2,10 +2,10 @@
 
 If you bought the Torn Keyboard kit the ATmega328P has already been programmed, otherwise if you purchased your own components you need to follow this section of the guide.
 
-This guide uses an Arduino Uno to program the keyboard. You can use other ISP programmers that are supported by avrdude.
+This guide shows you how to use an Arduino Uno or an USBasp to program the keyboard. You can use other ISP programmers that are supported by avrdude.
 
 
-#### Arduino Uno as ISP
+## Arduino Uno as ISP
 
 First you need to program the Arduino Uno as an ISP, as described in Load the Sketch at [https://www.arduino.cc/en/Tutorial/ArduinoISP#toc5](https://www.arduino.cc/en/Tutorial/ArduinoISP#toc5).
 
@@ -30,11 +30,60 @@ The Arduino Uno board needs a 10µF electrolytic capacitor connected to RESET an
 ![alt_text](build/image18.jpg)
 
 
-#### Flash the bootloader
+## USBasp as ISP
+
+> This section was tested on Ubuntu Desktop 20.10. If you don't have Ubuntu installed, you can run it from a [bootable USB stick](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview) without touching your current OS.
+
+
+#### Installing the required packages
+
+1. Open a new Terminal window
+2. run `sudo add-apt-repository universe`, press Enter when prompted.
+3. run `sudo apt-get update`
+3. run `sudo apt-get install avr-libc binutils-avr gcc-avr avrdude make`, press Y when prompted
+
+#### Testing your USBasp
+
+Plug the USBasp into your computer. Connect the ribbon cable between your USBasp and the ISCP header on your keyboard. Make sure that the ribbon cable notch faces the right way.
+
+Run `avrdude -c usbasp -p atmega328p` in your Terminal.
+
+If everything is working you should get a message simliar to this one: 
+
+```
+
+    avrdude: AVR device initialized and ready to accept instructions
+
+    Reading | ################################################## | 100% 0.00s
+
+    avrdude: Device signature = 0x1e950f (probably m328p)
+
+    avrdude: safemode: Fuses OK (E:FC, H:D0, L:D7)
+
+    avrdude done.  Thank you.    
+```
+
+![alt_text](build/image47.jpg)
+
+
+## Flashing the bootloader
 
 Download the USBaspLoader source code from [https://github.com/rtitmuss/USBaspLoader/tree/torn](https://github.com/rtitmuss/USBaspLoader/tree/torn). You may need to modify the `PROGRAMMER` setting in `Makefile.inc` if you are using a different ISP programmer or OS.
 
-You can then flash the bootloader using:
+
+### Arduino
+
+If you are using an Arduino as ISP you may need to change the path to your Arduino in the `Makefile.inc`. Replace in line 41 the path `/dev/cu.usbmodem*` with your own. 
+ 
+
+### USBasp
+
+You need to edit `Makefile.inc`and uncomment Line 40. Comment out Line 41 by adding a `#` infront of it. Make sure to save your changes before continuing. 
+
+
+### Flashing
+
+Navigate to your unzipped `USBaspLoader-torn` folder and open a terminal window at that path. You can then flash the bootloader using:
 
 ```
     make
@@ -43,3 +92,5 @@ You can then flash the bootloader using:
 ```
 
 One the bootloader has been flashed to the board, disconnect the Arduino Uno.
+
+

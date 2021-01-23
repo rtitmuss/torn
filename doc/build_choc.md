@@ -8,7 +8,7 @@ When using Choc switches it looks better if you lower the acrylic cover, to do t
 
 The mechanical assembly will follow this diagram:
 
-![alt_text](build/stackup_mx.svg)
+![alt_text](build/stackup_choc.svg)
 
 
 **Step 1**

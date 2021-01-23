@@ -29,23 +29,23 @@ jobs:
       uses: nerdyscout/kicad-exports@v2.0
       with:
         config: scripts/kiplot.yml
-        dir: plates/torn_base/release
-        board: plates/torn_base/torn_base.kicad_pcb
-        schema: plates/torn_base/torn_base.sch
+        dir: case/PCB\ Case/base/release
+        board: case/PCB\ Case/base/torn_base.kicad_pcb
+        schema: case/PCB\ Case/base/torn_base.sch
     - name: Export plate gerber
       uses: nerdyscout/kicad-exports@v2.0
       with:
         config: scripts/kiplot.yml
-        dir: plates/torn_plate/release
-        board: plates/torn_plate/torn_plate.kicad_pcb
-        schema: plates/torn_plate/torn_plate.sch
+        dir: case/PCB\ Case/plate/release
+        board: case/PCB\ Case/plate/torn_plate.kicad_pcb
+        schema: case/PCB\ Case/plate/torn_plate.sch
 
     - name: Zip Gerber files
       run: |
           zip -r --junk-paths torn_left-gerber.zip torn_left/release
           zip -r --junk-paths torn_right-gerber.zip torn_right/release
-          zip -r --junk-paths torn_plate-gerber.zip plates/torn_plate/release
-          zip -r --junk-paths torn_base-gerber.zip plates/torn_base/release
+          zip -r --junk-paths torn_plate-gerber.zip case/PCB\ Case/plate/release
+          zip -r --junk-paths torn_base-gerber.zip case/PCB\ Case/base/release
 
     - name: Release to GiHub
       uses: softprops/action-gh-release@v1

@@ -62,7 +62,7 @@ This PCB design may be freely reproduced, modified, and manufactured for persona
 
 ![torn](./doc/img/img5.jpg)
 
-![torn](./case/torn%20-%201.jpeg)
+![torn](./case/3D%20Printed%20Case/torn%20-%201.jpeg)
 
 ![torn](./doc/img/img2.jpg)
 

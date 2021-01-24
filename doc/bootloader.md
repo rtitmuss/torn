@@ -2,15 +2,21 @@
 
 If you bought the Torn Keyboard kit the ATmega328P has already been programmed, otherwise if you purchased your own components you need to follow this section of the guide.
 
-This guide uses an Arduino Uno to program the keyboard. You can use other ISP programmers that are supported by avrdude.
+This guide shows you how to use an Arduino Uno or an USBasp to program the keyboard. You can use other ISP programmers that are supported by avrdude.
 
 
-#### Arduino Uno as ISP
+## Downloading the bootloader
+
+Download the USBaspLoader source code from [https://github.com/rtitmuss/USBaspLoader/tree/torn](https://github.com/rtitmuss/USBaspLoader/tree/torn) by clicking on the green `Code` button and then on `Download ZIP`. Unzipp the files. 
+
+You may need to modify the `PROGRAMMER` setting in `Makefile.inc` if you are using a different ISP programmer or OS. The next sections will skim over what to edit in case you are using an Arduino or a USBasp.
+
+## Arduino Uno as ISP
 
 First you need to program the Arduino Uno as an ISP, as described in Load the Sketch at [https://www.arduino.cc/en/Tutorial/ArduinoISP#toc5](https://www.arduino.cc/en/Tutorial/ArduinoISP#toc5).
 
 
-#### Wiring the programmer
+### Wiring the programmer
 
 You can use an Arduino Uno to program the AMegta328P with the ISP header on the right PCB. You need to connect the following pins:
 
@@ -27,14 +33,19 @@ Digital Pin 10 | ICP Pin 5 - Reset
 
 The Arduino Uno board needs a 10µF electrolytic capacitor connected to RESET and GND with the positive (long leg) connected to RESET. The capacitor has to be placed after the programmer board has been loaded with the ISP sketch.
 
+
 ![alt_text](build/image18.jpg)
 
 
-#### Flash the bootloader
+### Flashing
 
-Download the USBaspLoader source code from [https://github.com/rtitmuss/USBaspLoader/tree/torn](https://github.com/rtitmuss/USBaspLoader/tree/torn). You may need to modify the `PROGRAMMER` setting in `Makefile.inc` if you are using a different ISP programmer or OS.
+You may need to change the path to your Arduino in the `Makefile.inc`. Replace the path in line 41 `/dev/cu.usbmodem*` with your own.
+```
+41:     PROGRAMMER = -c avrisp -P /dev/cu.usbmodem* -b19200
+```
+Make sure to save your changes before continuing. 
 
-You can then flash the bootloader using:
+Navigate to your unzipped `USBaspLoader-torn` folder and open a terminal window at that location. You can now flash the bootloader using:
 
 ```
     make
@@ -43,3 +54,64 @@ You can then flash the bootloader using:
 ```
 
 One the bootloader has been flashed to the board, disconnect the Arduino Uno.
+
+
+
+## USBasp as ISP
+
+> This section was tested on Ubuntu Desktop 20.10. If you don't have Ubuntu installed, you can run it from a [bootable USB stick](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview) without touching your current OS.
+
+
+### Installing the required packages
+
+1. Open a new Terminal window
+2. run `sudo add-apt-repository universe`, press Enter when prompted.
+3. run `sudo apt-get update`
+3. run `sudo apt-get install avr-libc binutils-avr gcc-avr avrdude make`, press Y when prompted
+
+### Testing your USBasp
+
+Plug the USBasp into your computer. Connect the ribbon cable between your USBasp and the ISCP header on your keyboard. Make sure that the ribbon cable notch faces the right way.
+
+Run `avrdude -c usbasp -p atmega328p` in your Terminal.
+
+If everything is working you should get a message similar to this one: 
+
+```
+    avrdude: AVR device initialized and ready to accept instructions
+
+    Reading | ################################################## | 100% 0.00s
+
+    avrdude: Device signature = 0x1e950f (probably m328p)
+
+    avrdude: safemode: Fuses OK (E:FC, H:D0, L:D7)
+
+    avrdude done.  Thank you.    
+```
+
+
+![alt_text](build/image47.jpg)
+
+
+### Flashing
+
+You need to edit `Makefile.inc`and uncomment Line 40. Comment out Line 41. 
+
+```
+39:     # PROGRAMMER = -c pony-stk200
+40:     PROGRAMMER = -c usbasp
+41:     # PROGRAMMER = -c avrisp -P /dev/cu.usbmodem* -b19200
+```
+Make sure to save your changes before continuing. 
+
+Navigate to your unzipped `USBaspLoader-torn` folder and open a terminal window at that location. You can now flash the bootloader using:
+
+```
+    make
+    make flash
+    make fuse
+```
+
+One the bootloader has been flashed to the board, disconnect the USBasp.
+
+

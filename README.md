@@ -15,7 +15,7 @@ Torn uses an Atmega328P cpu, running QMK with VUSB:
 Later this year you will be able to buy a Torn keyboard kit from [splitkb.com](https://blog.splitkb.com/blog/january-2021).
 Alternatively you can also buy [all the parts](./doc/bom.md) needed youself.
 
-Instructions are in the [Build guide](./doc/build.md).
+Instructions are in the [Build guide](./doc/build.md) and [Troubleshooting guide](./doc/troubleshoot.md).
 
 You can ask questions and get help on the [Torn Discord channel](https://discord.gg/mamAqNccju).
 

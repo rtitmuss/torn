@@ -355,6 +355,8 @@ It is a good idea to now test the board before adding the key switches. This is 
 
 Select the Key Tester tab, and enable Test Matrix. You can now test each key switch by shorting the contacts with tweezers or some wire. Make sure all switches work before continuing.
 
+You can check the [troubleshooting guide](troubleshoot.md) if the keyboard is not working.
+
 ![alt_text](build/image16.png)
 
 

@@ -148,18 +148,8 @@ Open `QMK MSYS` and run `avrdude -c usbasp -p atmega328p`.
 
 If everything is working you should get a message similar to this one: 
 
-```
-    avrdude.exe: AVR device initialized and ready to accept instructions
 
-    Reading | ################################################## | 100% 0.00s
-
-    avrdude.exe: Device signature = 0x1e950f (probably m328p)    
-
-    avrdude.exe done.  Thank you.    
-```
-
-
-![alt_text](build/image47.jpg)
+![alt_text](build/image51.png)
 
 
 ### Flashing
@@ -173,9 +163,11 @@ Go into your previously downloaded and unzipped `USBaspLoader-torn` folder and e
 ```
 Make sure to save your changes before continuing. 
 
-Navigate to your unzipped `USBaspLoader-torn` folder and open a terminal window at that location. You can also type `cd C:/User/YOURUSERNAME/Downloads/USBaspLoader-torn` in `QMK MSYS`. Change the path according to your own and press Enter.
+Navigate to your unzipped `USBaspLoader-torn` folder and open a terminal window at that location. You can also type `cd C:/Users/YOURUSERNAME/Downloads/USBaspLoader-torn` in `QMK MSYS`. Change the path according to your own and press Enter.
 
-![alt_text](build/image51.png)
+
+![alt_text](build/image52.png)
+
 
 You can now flash the bootloader using:
 

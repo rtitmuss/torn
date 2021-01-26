@@ -57,10 +57,9 @@ Navigate to your unzipped `USBaspLoader-torn` folder and open a terminal window 
 Once the bootloader has been flashed to the board, disconnect the Arduino Uno.
 
 
-
 ## USBasp as ISP on Linux
 
-> This section was tested on Ubuntu Desktop 20.10. If you don't have Ubuntu installed, you can run it from a [bootable USB stick](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview) without touching your current OS.
+> This section has been tested on Ubuntu Desktop 20.10. If you don't have Ubuntu installed, you can run it from a [bootable USB stick](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview) without touching your current OS.
 
 
 ### Installing the required packages
@@ -118,7 +117,7 @@ Once the bootloader has been flashed to the board, disconnect the USBasp.
 
 ## USBasp as ISP on Windows
 
-> This section was tested on Windows 10.
+> This section has been tested on Windows 10.
 
 
 ### Installing the required programs
@@ -163,7 +162,7 @@ Go into your previously downloaded and unzipped `USBaspLoader-torn` folder and e
 ```
 Make sure to save your changes before continuing. 
 
-Navigate to your unzipped `USBaspLoader-torn` folder and open a terminal window at that location. You can also type `cd C:/Users/YOURUSERNAME/Downloads/USBaspLoader-torn` in `QMK MSYS`. Change the path according to your own and press Enter.
+Navigate to your unzipped `USBaspLoader-torn` folder by typing `cd C:/Users/YOURUSERNAME/Downloads/USBaspLoader-torn` in `QMK MSYS`. Change the path according to your own and press Enter.
 
 
 ![alt_text](build/image52.png)

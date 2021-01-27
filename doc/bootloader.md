@@ -54,13 +54,12 @@ Navigate to your unzipped `USBaspLoader-torn` folder and open a terminal window 
     make fuse
 ```
 
-One the bootloader has been flashed to the board, disconnect the Arduino Uno.
+Once the bootloader has been flashed to the board, disconnect the Arduino Uno.
 
 
+## USBasp as ISP on Linux
 
-## USBasp as ISP
-
-> This section was tested on Ubuntu Desktop 20.10. If you don't have Ubuntu installed, you can run it from a [bootable USB stick](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview) without touching your current OS.
+> This section has been tested on Ubuntu Desktop version 20.10. If you don't have Ubuntu installed, you can run it from a [bootable USB stick](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview) without touching your current OS.
 
 
 ### Installing the required packages
@@ -96,7 +95,7 @@ If everything is working you should get a message similar to this one:
 
 ### Flashing
 
-You need to edit `Makefile.inc`and uncomment Line 40. Comment out Line 41. 
+Go into your previously downloaded and unzipped `USBaspLoader-torn` folder and edit `Makefile.inc`. Uncomment Line 40. Comment out Line 41. 
 
 ```
 39:     # PROGRAMMER = -c pony-stk200
@@ -113,6 +112,70 @@ Navigate to your unzipped `USBaspLoader-torn` folder and open a terminal window 
     make fuse
 ```
 
-One the bootloader has been flashed to the board, disconnect the USBasp.
+Once the bootloader has been flashed to the board, disconnect the USBasp.
+
+
+## USBasp as ISP on Windows
+
+> This section has been tested on Windows 10 version 20H2.
+
+
+### Installing the required programs
+
+If you don't have `QMK MSYS` already installed on your computer, go [HERE](https://msys.qmk.fm/) and install the latest version. Follow the `Get Started` section and come back here when you are done. You will also need `QMK MSYS` later if you want to create your own keymap.
+1. Make sure `QMK MSYS` is installed.
+2. Download [Zadig](https://zadig.akeo.ie/). You will need this program to install the correct driver for your USBasp on Windows.
+3. Plug your USBasp into your computer.
+4. Start Zadig and select `List all Devices` under `Options`.
+5. You should now be able to select `USBasp`in the drop down menu.
+6. Make sure `WinUSB`is selected as replacement driver.
+7. Click on `Replace Driver` to start the progress and wait until it's done.
+8. Close Zadiq. Unplug your USBasp.
+
+
+![alt_text](build/image48.png)
+![alt_text](build/image49.png)
+![alt_text](build/image50.png)
+
+
+
+### Testing your USBasp
+
+Plug the USBasp into your computer. Connect the ribbon cable between your USBasp and the ISCP header on your keyboard. Make sure that the ribbon cable notch faces the right way.
+
+Open `QMK MSYS` and run `avrdude -c usbasp -p atmega328p`.
+
+If everything is working you should get a message similar to this one: 
+
+
+![alt_text](build/image51.png)
+
+
+### Flashing
+
+Go into your previously downloaded and unzipped `USBaspLoader-torn` folder and edit `Makefile.inc`. Uncomment Line 40. Comment out Line 41. 
+
+```
+39:     # PROGRAMMER = -c pony-stk200
+40:     PROGRAMMER = -c usbasp
+41:     # PROGRAMMER = -c avrisp -P /dev/cu.usbmodem* -b19200
+```
+Make sure to save your changes before continuing. 
+
+Navigate to your unzipped `USBaspLoader-torn` folder by typing `cd C:/Users/YOURUSERNAME/Downloads/USBaspLoader-torn` in `QMK MSYS`. Change the path according to your own and press Enter.
+
+
+![alt_text](build/image52.png)
+
+
+You can now flash the bootloader using:
+
+```
+    make
+    make flash
+    make fuse
+```
+
+Once the bootloader has been flashed to the board, disconnect the USBasp.
 
 

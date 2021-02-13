@@ -2,7 +2,7 @@
 
 If you bought the Torn Keyboard kit the ATmega328P has already been programmed, otherwise if you purchased your own components you need to follow this section of the guide.
 
-This guide shows you how to use an [Arduino Uno](#-Arduino-Uno-as-ISP) or an USBasp (on [Linux](#-USBasp-as-ISP-on-Linux) / [Windows](#-USBasp-as-ISP-on-Windows)) to program the keyboard. You can use other ISP programmers that are supported by avrdude.
+This guide shows you how to use an Arduino Uno or an USBasp to program the keyboard. You can use other ISP programmers that are supported by avrdude.
 
 You can check the [troubleshooting guide](troubleshoot.md#flashing-atmega328p) if you have problems programming the bootloader.
 

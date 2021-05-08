@@ -18,6 +18,10 @@ Alternatively you can also buy [all the parts](./doc/bom.md) needed youself.
 Instructions are in the [Build guide](./doc/build.md) and [Troubleshooting guide](./doc/troubleshoot.md).
 You can ask questions and get help on the [Torn Discord channel](https://discord.gg/mamAqNccju).
 
+There is also a detailed [build log](https://github.com/rafaeldelboni/buildlogs/blob/main/torn-v3.md)
+and [video](https://www.youtube.com/watch?v=7WUTQ30Datw). Thanks [rafaeldelboni](https://github.com/rafaeldelboni)! 
+
+
 ### Thanks
 
 It would not have been possible for me to design Torn without the information and designs published by the mechanical keyboard community. So thanks go to ...

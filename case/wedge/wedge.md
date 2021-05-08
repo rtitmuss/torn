@@ -1,7 +1,7 @@
 # Torn Wedge Case
 
 The Wedge Case has been designed for the Torn keyboard. It has been designed as a premium case option,
-with am angled 3D printed case and a steel plate.
+with an angled 3D printed case and a steel plate.
 
 The case is manufactured for your individual requirements. You can choose a tenting angle between 7 
 degrees to 30 degrees. The case can be made in a color of your choice, it is possible to try to match
@@ -31,6 +31,7 @@ You need a 2mm allen key (not included) for assembly.
 
 Care is taken during the manufacturing of the Wedge Case to produce the best possible finish, but
 the Wedge Case is 3D printed which means that fine layer lines will be visible in the surface finish.
+These close up photos are intended to show the imperfections!
 
 ![alt_text](img/IMG_9035.jpg)
 
@@ -51,7 +52,7 @@ The case has room for the TRRS and USB C connectors to attach to the PCB.
 
 ## Build Guide
 
-Before assembling the Wedge Case you need to have completed the [Torn PCBs](../../doc/build.md). Complete
+Before assembling the Wedge Case you need to have assembled the [Torn PCBs](../../doc/pcb.md). Complete
 the following steps for the left and right sides of your keyboard.
 
 ### Step 1

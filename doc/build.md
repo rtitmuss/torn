@@ -104,3 +104,11 @@ make torn:via:flash
 ```
 
 For additional help flashing QMK please see [https://docs.qmk.fm/#/newbs_flashing](https://docs.qmk.fm/#/newbs_flashing).
+
+## Enjoy!
+
+Congratulations on completing your Torn keyboard! It was fun designing and sharing this keyboard and
+I enjoy seeing pictures of the finished build. So take a photo (tips for your
+[phone](https://switchandclick.com/how-to-take-better-photos-of-your-keyboard-among-other-things/)
+or [dslr](https://golem.hu/article/keyboard-photography/)) and share in
+[Discord](https://discord.gg/mamAqNccju) or on [Reddit](https://www.reddit.com/r/ErgoMechKeyboards/).

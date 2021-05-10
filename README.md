@@ -77,3 +77,5 @@ This PCB design may be freely reproduced, modified, and manufactured for persona
 ![torn](./doc/img/discord1.jpg)
 
 ![torn](./doc/img/img1.jpg)
+
+![torn](./doc/img/20210213_123553.jpeg)

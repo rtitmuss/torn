@@ -62,6 +62,14 @@ make sure it won't more around your desk you can add some extra weight at the bo
 
 ![alt_text](img/IMG_9037.jpg)
 
+A cost effective was to add weight is to use adhesive balance weights for car wheels. Below eight 60g
+strips are used to add approx 500g additional weight. These are easy to buy from Amazon, for example
+[US](https://www.amazon.com/Pit-Posse-Balancing-Weights-Adhesive/dp/B00OQWS98S/ref=sr_1_13?dchild=1&keywords=balancing+weight&qid=1620718949&sr=8-13),
+[UK](https://www.amazon.co.uk/FIERCE-CYCLE-Balance-Weights-Motorcycle/dp/B07QQ539GV/ref=sr_1_7?crid=7JSFKDWAYNL7&dchild=1&keywords=balancing+weights&qid=1620718843&sprefix=balancing+wei%2Caps%2C164&sr=8-7),
+[SE](https://www.amazon.se/gp/product/B01GHKG18G/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1).
+
+![alt_text](img/PXL_20210606_093257183.jpg)
+
 ## Step 2
 
 Press the insert firmly into the base. This is designed to be a tight fit, and it is important that
@@ -118,3 +126,12 @@ Turn the case over and using three M3 screws to secure the trim. Add four bumper
 Add the keycaps and enjoy your new keyboard!
 
 ![alt_text](img/IMG_9060.jpg)
+
+The completed keyboard weights about 500g for each half.
+
+![alt_text](img/PXL_20210606_092259319.jpg)
+
+When using additional weights it is easy to increase this to 900g+ for each half.
+
+![alt_text](img/PXL_20210606_093623977.jpg)
+

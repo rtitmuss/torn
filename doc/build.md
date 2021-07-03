@@ -37,7 +37,7 @@ of the keyboard. Test the keyboard is working before installing it in a case.
 
 ## Torn Keyboard Cases
 
-The completed PCBs can be installed in a keyboard case. There are several options, or you could
+The completed PCBs can be installed in a keyboard case. There are several options available, or you could
 design your own!
 
 ### Torn Wedge Case
@@ -55,17 +55,29 @@ for more information.
 
 ![torn](./img/img2.jpg)
 
-### Kailh Choc Switches
+### PCB case with Kailh Choc Switches
 
 If you prefer a low profile keyboard you can use Kailh Choc Switches, see the [ Choc Switches instructions](build_choc.md)
 for more information.
 
 ![alt_text](build/image26.jpg)
 
+### Travel Case
 
-### 3D printed case
+You can 3d print a folding [travel case](../case/Travel%20Case/readme.md) designed for Kailh Choc
+switches and a 15 inch Macbook Pro.
 
-You can [3D print](../case/3D%20Printed%20Case/readme.md) a case that can be used with either MX Switches or Kailh Choc Switches.
+![torn](../case/Travel%20Case/PXL_20210606_104742862.jpg)
+
+### Choc Case
+
+This [3d printed case](../case/Choc%20Case/readme.md) is designed for Kailh Choc Switches.
+
+![torn](../case/Choc%20Case/Torn_Choc_Case_Render.png)
+
+### 3d printed case
+
+You can [3d print](../case/3D%20Printed%20Case/readme.md) a case that can be used with either MX Switches or Kailh Choc Switches.
 
 ![torn](../case/3D%20Printed%20Case/torn%20-%201.jpeg)
 

@@ -62,20 +62,22 @@ This PCB design may be freely reproduced, modified, and manufactured for persona
  
 ### Gallery
 
-![torn](./doc/img/img3.jpg)
+![Build Photo](./doc/img/img3.jpg)
 
-![torn](./doc/img/img4.jpg)
+![Torn Keyboard](./doc/img/img4.jpg)
 
-![torn](./case/wedge/img/PXL_20210508_125158827.PORTRAIT.jpg)
+![Wedge Case](./case/wedge/img/PXL_20210508_125158827.PORTRAIT.jpg)
 
-![torn](./doc/img/img5.jpg)
+![Choc Switches](./doc/img/img5.jpg)
 
-![torn](./case/3D%20Printed%20Case/torn%20-%201.jpeg)
+![HiPro Case](./case/HiPro%20Case/img/PXL_20210714_175756116.jpg)
 
-![torn](./doc/img/img2.jpg)
+![3d Case](./case/3D%20Printed%20Case/torn%20-%201.jpeg)
 
-![torn](./doc/img/discord1.jpg)
+![Torn Keyboard](./doc/img/img2.jpg)
 
-![torn](./doc/img/img1.jpg)
+![Torn Keyboard](./doc/img/discord1.jpg)
 
-![torn](./doc/img/20210213_123553.jpeg)
+![Torn Keyboard](./doc/img/img1.jpg)
+
+![Torn Keyboard](./doc/img/20210213_123553.jpeg)

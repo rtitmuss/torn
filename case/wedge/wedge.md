@@ -4,9 +4,10 @@ The Wedge Case has been designed for the Torn keyboard. It has been designed as 
 with an angled 3D printed case and a steel plate.
 
 The case is manufactured for your individual requirements. You can choose a tenting angle between 7 
-degrees to 30 degrees. The case can be made in a color of your choice, it is possible to try to match
-the color to your keycaps. Prices start from €150 plus shipping. Please contact me at 
-richard.titmuss@gmail.com for more information.
+degrees to 30 degrees. The cases are printed on demand and can be made in a color of your choice, it
+is even possible to try and match the color to your keycaps. Prices start from €150 plus shipping from Europe.
+If your interested please contact me at richard.titmuss@gmail.com or on
+[Discord](https://discordapp.com/users/745293992044003348/) for more information.
 
 ![alt_text](img/PXL_20210508_125158827.PORTRAIT.jpg)
 

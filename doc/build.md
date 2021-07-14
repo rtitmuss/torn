@@ -48,6 +48,13 @@ for MX Switches, weighing approx 500g with an angled 3D printed case and a steel
 
 ![alt_text](../case/wedge/img/PXL_20210508_125158827.PORTRAIT.jpg)
 
+### Weighted HiPro Case
+
+This [3d printed Weighted HiPro Case](../case/HiPro%20Case/readme.md) is designed for MX or Kailh Choc switches. This case is designed
+with a snap fit assembly, and to include 200g weight in each half.
+
+![torn](../case/HiPro%20Case/img/IMG_9094.jpg)
+
 ### PCB Plate with MX Switches
 
 You can use a PCB Plate case with MX Swtiches, see the [PCB Plate instructions](./build_mx.md)
@@ -68,12 +75,6 @@ You can 3d print a folding [travel case](../case/Travel%20Case/readme.md) design
 switches and a 15 inch Macbook Pro.
 
 ![torn](../case/Travel%20Case/PXL_20210606_104742862.jpg)
-
-### Choc Case
-
-This [3d printed case](../case/Choc%20Case/readme.md) is designed for Kailh Choc Switches.
-
-![torn](../case/Choc%20Case/Torn_Choc_Case_Render.png)
 
 ### 3d printed case
 

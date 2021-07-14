@@ -69,9 +69,10 @@ switches and a 15 inch Macbook Pro.
 
 ![torn](../case/Travel%20Case/PXL_20210606_104742862.jpg)
 
-### Choc Case
+### Weighted HiPro Case
 
-This [3d printed case](../case/Choc%20Case/readme.md) is designed for Kailh Choc Switches.
+This [3d printed Weighted HiPro Case](../case/HiPro%20Case/readme.md) is designed for MX or Kailh Choc switches. This case is designed
+with a snap fit assembly, and to include 200g weight in each half.
 
 ![torn](../case/Choc%20Case/Torn_Choc_Case_Render.png)
 

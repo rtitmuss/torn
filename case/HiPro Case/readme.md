@@ -52,6 +52,11 @@ You need to 3d print the following parts:
 
 Print Settings: **No supports. 15% infill. 135 degree bridging angle.**
 
+The 3MF files include a color change for the Torn logo on the base. First load the color for the logo,
+and then change to the case color after the letters have printed
+([using this technique](https://forum.prusaprinters.org/forum/prusaslicer/manual-multicolor/)).
+The STL files use bridging for a debossing effect.
+
 ### Top (MX switches)
 
 - MX Left Top [STL](./stl/Left%20MX%20top.stl) [3MF](./stl/Left%20MX%20top.3mf)

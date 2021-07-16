@@ -53,7 +53,7 @@ for MX Switches, weighing approx 500g with an angled 3D printed case and a steel
 This [3d printed Weighted HiPro Case](../case/HiPro%20Case/readme.md) is designed for MX or Kailh Choc switches. This case is designed
 with a snap fit assembly, and to include 200g weight in each half.
 
-![torn](../case/HiPro%20Case/img/IMG_9094.jpg)
+![torn](../case/HiPro%20Case/img/PXL_20210716_130633293.PORTRAIT.jpg)
 
 ### PCB Plate with MX Switches
 

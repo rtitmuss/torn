@@ -29,9 +29,13 @@ You will need to get an arcylic cover cut.
 
 ### Screws and standoffs
 
-If you use PCB plate and base you will need M2 screws and standoffs. For example:
+If you use PCB plate and base you will need M2 screws and standoffs. For example for the MX plate case:
 - [M2 screws](https://www.aliexpress.com/item/32948706855.html) (3mm 26 pcs, 5mm 6 pcs)
-- [M2 standoffs](https://www.aliexpress.com/item/32968830934.htm) (3mm 16 pcs)
-- [M2 standoffs](https://www.aliexpress.com/item/32970235195.html) (3mm+3mm 10 pcs, 8mm+3mm 6 pcs)
+- [M2 standoffs](https://www.aliexpress.com/item/32968830934.html) (3mm 10 pcs, 8mm 6 pcs)
+- [M2 standoffs](https://www.aliexpress.com/item/32970235195.html) (3mm+3mm 16 pcs)
+
+The Kailh Choc plate case requires:
+- [M2 screws](https://www.aliexpress.com/item/32948706855.html) (3mm 16 pcs, 5mm 6 pcs)
+- [M2 standoffs](https://www.aliexpress.com/item/32968830934.html) (5mm or 8mm 6 pcs)
 
 You also want 8 rubber dome feet.

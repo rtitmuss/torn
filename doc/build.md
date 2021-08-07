@@ -55,6 +55,13 @@ with a snap fit assembly, and to include 200g weight in each half.
 
 ![torn](../case/HiPro%20Case/img/PXL_20210716_130633293.PORTRAIT.jpg)
 
+### Travel Case
+
+You can 3d print a folding [travel case](../case/Travel%20Case/readme.md) designed for Kailh Choc
+switches and a 15 inch Macbook Pro.
+
+![torn](../case/Travel%20Case/img/PXL_20210807_121445468.jpg)
+
 ### PCB Plate with MX Switches
 
 You can use a PCB Plate case with MX Swtiches, see the [PCB Plate instructions](./build_mx.md)
@@ -68,13 +75,6 @@ If you prefer a low profile keyboard you can use Kailh Choc Switches, see the [ 
 for more information.
 
 ![alt_text](build/image26.jpg)
-
-### Travel Case
-
-You can 3d print a folding [travel case](../case/Travel%20Case/readme.md) designed for Kailh Choc
-switches and a 15 inch Macbook Pro.
-
-![torn](../case/Travel%20Case/PXL_20210606_104742862.jpg)
 
 ### 3d printed case
 

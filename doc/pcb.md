@@ -335,7 +335,7 @@ To test the keyboard connect the TRRS cable between the left and right sides, an
 the cable must be a **TRRS cable** with **4 contacts** and NOT a TRS cable with 3 contacts.
 You should always disconnect the USB C cable before inserting or removing the TRRS cable. 
 
-The firmware is preinstalled if you’ve bought a kit, otherwise before continuing see the instructions to [flash the bootloader](bootloader.md) and [qmk](#qmk).
+The firmware is preinstalled if you’ve bought a kit, otherwise before continuing see the instructions to [flash the bootloader](bootloader.md) and [qmk](build.md#qmk).
 
 It is a good idea to now test the board before adding the key switches. This is easiest with Via, so first download and install it from [https://caniusevia.com/](https://caniusevia.com/). Your new Torn keyboard should be automatically detected when you connect it to your PC.
 
